@@ -60,7 +60,22 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+
+/*Taken from Quot's background colors*/
+
+    background-color: #3079ab;
+  /* Other choices
+    background-color: #327545;
+  background-color: #21738b; 
+    background-color: #21738b;
+    background-color: #7d669e;
+    background-color: #5965b4;
+    background-color: #337f7a;
+    background-color: #86633f;
+    background-color: #567735;
+    background-color: #446a91;
+    background-color: #b54362;
+  */
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -308,15 +323,17 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+/*  color: #505050; */
+  color: #fff;
 }
 .masthead-title a {
-  color: #505050;
+/*  color: #505050; */
+  color: #fff;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+//  color: #c0c0c0;
   letter-spacing: 0;
 }
 
