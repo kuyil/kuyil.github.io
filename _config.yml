@@ -22,6 +22,3 @@ author:
   url:               https://twitter.com/KuyilOrg
   email:             admin@kuyil.org
 
-# Custom vars
-gems:
-  - jekyll-redirect-from
