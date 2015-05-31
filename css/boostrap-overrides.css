@@ -1,5 +1,20 @@
 
-body {
-  background-color: #333;
+html, body {
   color: #fff;
+
+  /*Taken from Quot's background colors*/
+      background-color: #3079ab;
+
+  /* Other choices
+      background-color: #327545;
+      background-color: #21738b; 
+      background-color: #21738b;
+      background-color: #7d669e;
+      background-color: #5965b4;
+      background-color: #337f7a;
+      background-color: #86633f;
+      background-color: #567735;
+      background-color: #446a91;
+      background-color: #b54362;
+  */
 }
