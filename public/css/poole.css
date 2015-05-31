@@ -62,9 +62,9 @@ body {
   color: #515151;
 
 /*Taken from Quot's background colors*/
-
-    background-color: #3079ab;
+    background-color: #3d6083;
   /* Other choices
+    background-color: #3079ab;
     background-color: #327545;
   background-color: #21738b; 
     background-color: #21738b;
@@ -122,6 +122,8 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
 }
 
 strong {
