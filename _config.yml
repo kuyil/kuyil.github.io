@@ -23,3 +23,5 @@ author:
   email:             admin@kuyil.org
 
 # Custom vars
+gems:
+  - jekyll-redirect-from
