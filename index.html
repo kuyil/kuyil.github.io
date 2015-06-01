@@ -2,50 +2,20 @@
 layout: default
 title: kuyil.org
 ---
-<img class="centered" src="images/quot-logo.svg" align="middle" width=20%></img> 
+<div class="col-lg-12">
+  <img src="images/quot-logo.svg" align="middle" width=20%></img> 
+</div>
 
+<div class="col-lg-12">
 <p>Quot presents you quotes, sayings, aphorisms, quotations, proverbs, words of wise and wisdom. It is simple and beautiful. It is designed to motivate, amuse, inspire, and provoke profoundness in you. It is not just an app. </p>
 
 <p>Free. No Ads. </p>
+</div>
 
+<div class="col-lg-12">
 <!-- Get it on Google Play -->
   <a href="https://play.google.com/store/apps/details?id=org.kuyil.quot">
     <img class="centered" alt="Get it on Google Play"
            src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
   </a>
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
 </div>
-<!--
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-
--->
