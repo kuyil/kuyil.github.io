@@ -1,24 +1,8 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+# Site settings
+title: KUYIL
+email: admin@kuyil.org
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               KUYIL
-tagline:             ''
-description:         'A very nice description of <em>Kuyil.Org</em>'
-url:                 http://kuyil.github.io
-baseurl:             /
-paginate:            5
-
-# About/contact
-author:
-  name:              kuyil.org
-  url:               https://twitter.com/KuyilOrg
-  email:             admin@kuyil.org
-
+# Build settings
+markdown: kramdown
