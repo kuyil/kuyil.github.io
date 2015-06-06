@@ -1,14 +1,14 @@
 ---
 ---
-
+$background-color: #3d6083
 html,
 body 
   color: #fff
-  background-color: #3d6083
+  background-color: $background-color
   text-align: center
   font-size: 18px
   line-height: 1.5
-  font-family: "Alegreya","PT Serif",Georgia,"Times New Roman",serif
+  font-family: "Pompiere","PT Serif",Georgia,"Times New Roman",serif
   
   // margin-left: auto
   // margin-right: auto
@@ -49,3 +49,16 @@ h1
   font-family: sans
   font-size: 14px
   padding-left: 15px
+  text-align: center
+
+.author
+  color: lighten($background-color, 35%)
+  font-size: 16px
+  font-family: "Roboto", Serif
+  margin-bottom: 25px
+
+.quote
+  font-size: 32px
+
+p
+  margin-bottom: 40px
