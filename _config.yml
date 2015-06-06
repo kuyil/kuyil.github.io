@@ -1,5 +1,5 @@
 # Site settings
-title: KUYIL
+title: kuyil
 email: admin@kuyil.org
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog/
