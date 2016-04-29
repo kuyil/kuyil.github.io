@@ -1,35 +1,37 @@
 ---
 ---
+
 $background-color: #3d6083
+
+/* Taken from Quot's background colors */
+/* Other choices
+    background-color: #327545
+    background-color: #21738b
+    background-color: #21738b
+    background-color: #7d669e
+    background-color: #5965b4
+    background-color: #337f7a
+    background-color: #86633f
+    background-color: #567735
+    background-color: #446a91
+    background-color: #b54362 */
+
 html,
-body 
+body
   color: #fff
   background-color: $background-color
   text-align: center
   font-size: 14px
   line-height: 1.5
   font-family: serif
-  
+
+  /* TODO when flex
+    min-height: 100%
+    height: 100%
+    display: flex */
+
   // margin-left: auto
   // margin-right: auto
-
-  /*Taken from Quot's background colors*/
-
-  /* Other choices
-      background-color: #327545
-      background-color: #21738b 
-      background-color: #21738b
-      background-color: #7d669e
-      background-color: #5965b4
-      background-color: #337f7a
-      background-color: #86633f
-      background-color: #567735
-      background-color: #446a91
-      background-color: #b54362 */
-
-
-.container-fluid
-  max-width: 32rem
 
 .row
   margin-right: 0px
@@ -38,6 +40,9 @@ body
 // .col-lg-12
 //   // padding-top: 1em
 //   padding-bottom: 0em
+.navbar-brand
+  font-family: "Flamenco", serif
+  font-size: 32px
 
 .page-header
   text-align: left
@@ -45,24 +50,27 @@ body
   margin-bottom: 0px
   padding-bottom: 0px
 
-h1
-  font-family: sans
-  font-size: 14px
-  padding-left: 15px
-  text-align: center
-
 .author
   color: lighten($background-color, 35%)
   font-size: 16px
   font-family: "Roboto", Sans
-  margin-bottom: 25px
+  margin-bottom: 5px
 
 .quote
   font-size: 23px
   font-family: 'Lora', serif
 
+// for social buttons
+.social
+  margin-top: 16px
+  margin-bottom: 16px
+
+// main, banner like content
+.hype
+  padding-top: 32px
+  padding-bottom: 32px
 p
-  margin-bottom: 35px
+  margin-bottom: 25px
 
 img
   vertical-align: top
