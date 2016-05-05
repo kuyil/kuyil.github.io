@@ -46,7 +46,7 @@ title: kuyil
     <div class="row">
     <div id="customForm">
     	<div name="SIGNUP_BODY" id="SIGNUP_PAGE" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
-    		<div id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">Interested in Carnatic apps?</div>
+    		<!-- <div id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">Interested in Carnatic apps?</div> -->
     		<div style="position:relative;top: 30px;">
     			<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px; ">
     				<table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -64,21 +64,18 @@ title: kuyil
     			</div>
     		</div>
 
-    		<form method="POST" id="zcampaignOptinForm" style="margin:0px;" action="https://zc1.maillist-manage.com/weboptin.zc" target="_zcSignup">
+    		<form class='form-inline' method="POST" id="zcampaignOptinForm" style="margin:0px;" action="https://zc1.maillist-manage.com/weboptin.zc" target="_zcSignup">
     			<div style="display:none;background-color:#FFEBE8;padding:10px 10px; color:#d20000; font-size:11px; margin:10px;border:solid 1px #ffd9d3; margin-top:20px;" id="errorMsgDiv">&nbsp;&nbsp;Invalid email address</div>
-    			<table width="100%" border="0" cellpadding="0" cellspacing="0">
-    				<tbody>
-    					<tr>
-    						<td align="left" valign="top">
-    							<div style="padding-left:10px; padding-right:10px;padding-bottom:10px; padding-top:10px;">
-    								<input changetype="CONTACT_EMAIL" name="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" id="CONTACT_EMAIL" style="border-radius: 4px 0pt 0pt 4px; height: 32px; line-height: 20px; margin: 0px -4px 0px 0px; padding: 0px 7px 0px 6px; border: 1px solid rgb(235, 235, 235); vertical-align: middle; color: rgb(85, 85, 85); width: 70%; text-align: center; background-color: rgb(255, 255, 255); font-size: 12px;" placeholder="Email" type="text">
-    								<span style="display:none" id="dt_CONTACT_EMAIL">1,true,6,Contact Email,2</span>
-    								<input name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" style="background-color: rgb(167, 167, 167); height: 34px; line-height: 34px; margin: 0px; border: 1px solid rgb(167, 167, 167); color: rgb(255, 255, 255); vertical-align: middle; width: 25%; cursor: pointer; font-size: 12px; border-radius: 0px 4px 4px 0px; padding: 0px 12px;" value="Subscribe" type="button">
-    							</div>
-    						</td>
-    					</tr>
-    				</tbody>
-    			</table><!-- Do not edit the below Zoho Campaigns hidden tags -->
+            <div class='form-group has-success has-feedback'>
+              <label class='control-label' id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">Interested in Carnatic apps?</label>
+              <div class='input-group'>
+  							<input class='form-control input-lg' changetype="CONTACT_EMAIL" name="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" id="CONTACT_EMAIL"  placeholder="Email" type="email">
+  							<span class='input-group-addon'><input class='input-group-addon' name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Subscribe" type="button"></span>
+              </div>
+  							<span style="display:none" id="dt_CONTACT_EMAIL">1,true,6,Contact Email,2</span>
+  							<!-- <input name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" style="background-color: rgb(167, 167, 167); height: 34px; line-height: 34px; margin: 0px; border: 1px solid rgb(167, 167, 167); color: rgb(255, 255, 255); vertical-align: middle; width: 25%; cursor: pointer; font-size: 12px; border-radius: 0px 4px 4px 0px; padding: 0px 12px;" value="Subscribe" type="button"> -->
+						</div>
+          <!-- Do not edit the below Zoho Campaigns hidden tags -->
     			<input id="fieldBorder" value="" type="hidden">
     			<input name="zc_trackCode" id="zc_trackCode" value="" onload="" type="hidden">
     			<input id="submitType" name="submitType" value="optinCustomView" type="hidden">
