@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="social-icons.svg">
+   sodipodi:docname="social-icons.svg"
+   inkscape:export-filename="/home/ragu/code/kuyil.github.io/images/gplus-logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <linearGradient
@@ -62,7 +65,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7290971"
-     inkscape:cx="184.52328"
+     inkscape:cx="158.49813"
      inkscape:cy="228.55607"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
@@ -90,7 +93,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-668.3622)"
-     style="display:none">
+     style="display:inline">
     <image
        y="748.36218"
        x="16"
@@ -884,7 +887,7 @@ EAEhwurxP5Xa5y2cgLRMAAAAAElFTkSuQmCC
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="telegram"
-     style="display:inline">
+     style="display:none">
     <g
        id="g3677"
        transform="matrix(2.539982,0,0,2.539982,-280.85609,-313.21525)">
