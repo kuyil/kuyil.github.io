@@ -90,9 +90,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20605476"
-     inkscape:cx="329.0116"
-     inkscape:cy="-464.21856"
+     inkscape:zoom="0.85326086"
+     inkscape:cx="-664.5906"
+     inkscape:cy="1483.3476"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -110,7 +110,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -119,34 +119,40 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="display:inline;opacity:1;fill:#00838f;fill-opacity:1;fill-rule:nonzero;stroke:#bfbfbf;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.70050767"
+       style="display:inline;opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:#bfbfbf;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.70050767"
        id="rect4240"
        width="828"
        height="315"
        x="-1143.9659"
-       y="-687.47565" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:67.46369934px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-729.63928"
-       y="-559.68268"
-       id="text12842"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan12844"
+       y="-687.47565"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4330"
+       transform="translate(-76.091624,27.434838)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text12842"
+         y="-559.68268"
          x="-729.63928"
-         y="-559.68268">Kuyil </tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text12846"
-       y="-509.51514"
-       x="-835.63019"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.61229706px;line-height:125%;font-family:Sail;-inkscape-font-specification:Sail;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="-509.51514"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:67.46369934px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#555753;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="-559.68268"
+           x="-729.63928"
+           id="tspan12844"
+           sodipodi:role="line">Kuyil </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.61229706px;line-height:125%;font-family:Sail;-inkscape-font-specification:Sail;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#555753;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-835.63019"
-         id="tspan12848"
-         sodipodi:role="line">Apps Crafted for Carnatic</tspan></text>
+         y="-509.51514"
+         id="text12846"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan12848"
+           x="-835.63019"
+           y="-509.51514">Apps Crafted for Carnatic</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45.32659531px;line-height:125%;font-family:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#888a85;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
