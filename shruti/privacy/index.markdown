@@ -56,7 +56,7 @@ If you'd like us to delete User Provided Data that you have provided via the App
 
 ## Children
 
-We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at shruti@kuyil.org . We will delete such information from our files within a reasonable time.
+We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <shruti@kuyil.org> . We will delete such information from our files within a reasonable time.
 
 ## Security
 
@@ -64,7 +64,7 @@ We limit access to this information to authorized employees and contractors who 
 
 ## Changes
 
-This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <kuyil.org/shruti/privacy> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <http://kuyil.org/shruti/privacy> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
 The history of changes made to this policy can be found [here](https://github.com/kuyil/kuyil.github.io/commits/master/shruti/privacy/index.html).
 
