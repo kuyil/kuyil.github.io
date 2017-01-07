@@ -1,8 +1,6 @@
 ---
-title: privacy policy
+title: Privacy Policy
 ---
-
-# Privacy Policy
 
 This privacy policy governs your use of the software application [Shruti Carnatic Tuner](https://play.google.com/store/apps/details?id=org.kuyil.shruti) ("App") for Android devices that was created by Kuyil. The application is a tuner which helps to tune instruments and voice to Carnatic swarams. It detects the swaram by listening to your voice or instrument. It provides visual clues to assist accurate tuning.
 
@@ -66,7 +64,7 @@ We limit access to this information to authorized employees and contractors who 
 
 ## Changes
 
-This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at kuyil.org/shruti/privacy . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <kuyil.org/shruti/privacy> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
 The history of changes made to this policy can be found [here](https://github.com/kuyil/kuyil.github.io/commits/master/shruti/privacy/index.html).
 
