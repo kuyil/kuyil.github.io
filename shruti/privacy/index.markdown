@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: barebones_white
+layout: barebones_white_margins
 ---
 
 # Privacy Policy
