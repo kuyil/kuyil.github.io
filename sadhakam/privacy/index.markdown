@@ -62,7 +62,7 @@ We limit access to this information to authorized employees and contractors who 
 
 This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <http://kuyil.org/sadhakam/privacy> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
-The history of changes made to this policy can be found [here](https://github.com/kuyil/kuyil.github.io/commits/master/sadhakam/privacy/index.html).
+The history of changes made to this policy can be found [here](https://github.com/kuyil/kuyil.github.io/commits/master/sadhakam/privacy/index.markdown).
 
 ## Your Consent
 
