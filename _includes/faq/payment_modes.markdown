@@ -37,7 +37,7 @@ Yes. You can buy <a href='https://paytm.com/google-play-gift-card-recharge'>Goog
 </div>
 
 
-Now that you have Google Play Recharge Code, use it to buy our premium features:
+<a id='redeem_gift_card'></a>Now that you have Google Play Recharge Code, use it to buy our premium features:
 
 <div class='row'>
     <div class="col-xs-12 col-md-4">
@@ -122,7 +122,11 @@ Yes. You can buy Google Play Recharge code from PhonePe. You'll get the code imm
 
 ### <a id='upi'></a>Can I use UPI?
 
-Yes. You can use UPI payment method to get a Google Play Recharge from <a href='https://paytm.com/google-play-gift-card-recharge'>Paytm</a> or <a href="#phonepe">PhonePe</a>. You'll get the code immediately. You can use the recharge code to buy our premium features.
+Yes. You can use UPI payment method to get a Google Play Recharge from Paytm or PhonePe.
+* To get Google Play Recharge from <a href='https://paytm.com/google-play-gift-card-recharge'>Paytm, click here.</a>
+* For instructions on getting Google Play Recharge using PhonePe app, <a href="#phonepe">click here</a>.
+
+ You'll get the code immediately. You can use the recharge code to buy our premium features.
 
 Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.
 
