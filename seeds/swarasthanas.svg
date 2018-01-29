@@ -10,16 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="444.87714mm"
-   height="344.38217mm"
+   width="44.487713cm"
+   height="34.438217cm"
    viewBox="0 0 444.87714 344.38217"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (30a58d1, 2017-08-07)"
    sodipodi:docname="swarasthanas.svg"
-   inkscape:export-filename="/home/ananth/code/kuyil/kuyil.github.io/images/carnatic_swarasthanas.png"
-   inkscape:export-xdpi="79.655693"
-   inkscape:export-ydpi="79.655693">
+   inkscape:export-filename="/home/ananth/code/beautifulnote/images/carnatic-swarasthanas.png"
+   inkscape:export-xdpi="68.510002"
+   inkscape:export-ydpi="68.510002">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,11 +27,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.68915081"
-     inkscape:cx="666.08215"
-     inkscape:cy="360.44406"
+     inkscape:zoom="0.6891508"
+     inkscape:cx="840.71268"
+     inkscape:cy="650.80095"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
@@ -43,7 +43,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-page="true" />
+     inkscape:snap-page="true"
+     units="cm" />
   <defs
      id="defs2" />
   <metadata
@@ -58,6 +59,18 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background">
+    <rect
+       style="opacity:1;fill:#b9f6ca;fill-opacity:1;stroke:none;stroke-width:1.66499996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1135"
+       width="444.87714"
+       height="344.38217"
+       x="0"
+       y="0" />
+  </g>
   <g
      id="layer1"
      inkscape:groupmode="layer"
@@ -1693,32 +1706,32 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot7052"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,-10.393746,-8.7240021)"><flowRegion
          id="flowRegion7054"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr;text-anchor:start;"><rect
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start"><rect
            id="rect7056"
            width="906.80316"
            height="509.94824"
            x="82.249718"
            y="1140.1068"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr;text-anchor:start;" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
          id="flowPara7058"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr;text-anchor:start;">© Kuyil  <flowSpan
-   style="-inkscape-font-specification:'Roboto, Light Italic';font-family:Roboto;font-weight:300;font-style:italic;font-stretch:normal;font-variant:normal;font-size:32.0000004px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start">© Kuyil  <flowSpan
+   style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
    id="flowSpan1117">Apps crafted for Carnatic</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,366.48613,-8.7240021)"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot7066"
        xml:space="preserve"><flowRegion
          id="flowRegion7062"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;"><rect
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
            y="1140.1068"
            x="82.249718"
            height="509.94824"
            width="906.80316"
            id="rect7060"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32.0000004px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:32px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
          id="flowPara7064">kuyil.org</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot7068"
