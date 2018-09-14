@@ -2,7 +2,7 @@
 title: Privacy Policy
 layout: barebones_white_margins
 
-app_name: Pocket Shrutibox
+app_name: Pocket Shruti Box
 app_link: https://play.google.com/store/apps/details?id=org.kuyil.shrutibox
 app_email: shrutibox@kuyil.org
 history: https://github.com/kuyil/kuyil.github.io/commits/master/shrutibox/privacy/index.markdown
