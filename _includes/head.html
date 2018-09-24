@@ -1,7 +1,7 @@
 <head>
   {% include head_basics.html %}
-  {% include head_bootstrap.html %}
-  <link rel="stylesheet" href="{{ "/css/bootstrap-overrides.css" | prepend: site.baseurl }}">
-  {% include webfonts.html %}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
   {% include woopra.html %}
 </head>

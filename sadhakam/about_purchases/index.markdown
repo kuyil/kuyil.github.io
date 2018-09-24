@@ -1,6 +1,6 @@
 ---
 title: Abour Purchases
-layout: barebones_white_margins
+layout: barebones
 app: "Sadhakam"
 app_full_name: "Sadhakam Carnatic Ear Trainer"
 email: "sadhakam@kuyil.org"

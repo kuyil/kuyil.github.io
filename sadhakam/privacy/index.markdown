@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: barebones_white_margins
+layout: barebones
 ---
 
 # Privacy Policy
@@ -17,7 +17,7 @@ The App offers in-app products and subscriptions that unlock additional exercise
 
 ### Automatically Collected Information
 
-Some anonymous information is collected automatically, to help improve quality of the App through crash reporting and analytics modules. These are, including but not limited to, the type of mobile device you use, your mobile operating system, and information about the way you use the App. 
+Some anonymous information is collected automatically, to help improve quality of the App through crash reporting and analytics modules. These are, including but not limited to, the type of mobile device you use, your mobile operating system, and information about the way you use the App.
 
 ## Does the App collect precise real time location information of the device?
 

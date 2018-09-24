@@ -1,0 +1,88 @@
+<!--Zoho  Web-Optin Form Starts Here-->
+<link href="https://campaigns.zoho.com/css/ui.theme.css" rel="stylesheet" type="text/css" />
+<link href="https://campaigns.zoho.com/css/ui.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="https://campaigns.zoho.com/css/ui.core.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://campaigns.zoho.com/js/jquery-1.11.0.min.js"></script>
+<script type='text/javascript' src='https://campaigns.zoho.com/js/jquery-migrate-1.2.1.min.js'></script>
+<script type="text/javascript" src='https://campaigns.zoho.com/js/ui.datepicker.js'  charset="utf-8"></script>
+<script type="text/javascript" src="https://campaigns.zoho.com/js/jquery.form.js"></script>
+<script type="text/javascript" src="https://campaigns.zoho.com/js/optin_min.js"></script>
+<script type="text/javascript">
+var $ZC = jQuery.noConflict();
+var trackingText='ZCFORMVIEW';
+$ZC(document).ready( function($) {
+$ZC("#zc_trackCode").val(trackingText);
+    $ZC("#fieldBorder").val($ZC("[changeItem='SIGNUP_FORM_FIELD']").css("border-color"));
+    _setOptin(false,function(th){
+    /*Before submit, if you want to trigger your event, "include your code here"*/
+});
+
+/*Load Captcha For this*/
+ loadCaptcha('https://campaigns.zoho.com/CaptchaVerify.zc?mode=generate');
+
+ /*Tracking Enabled*/
+ trackSignupEvent(trackingText);
+ });
+</script>
+
+<div id="customForm">
+    <div name="SIGNUP_BODY" id="SIGNUP_PAGE" class="col">
+    <!--
+        <div style="position:relative;top: 30px;">
+            <div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px; ">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td width="10%">
+                                <img class="successicon" src="https://campaigns.zoho.com/images/challangeiconenable.jpg" align="absmiddle">
+                            </td>
+                            <td>
+                                <span id="signupSuccessMsg" style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;">&nbsp;&nbsp;Verification email sent. Check your inbox.</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+  -->
+
+        <form method="POST" id="zcampaignOptinForm" style="margin:0px;" action="https://zc1.maillist-manage.com/weboptin.zc" target="_zcSignup">
+        <div class='form-group'>
+          <label class='control-label earlyaccess extra-bottom-space' id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">Interested in Carnatic apps?</label>
+          <div class='input-group'>
+                        <input class='form-control input-lg' changetype="CONTACT_EMAIL" name="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" id="CONTACT_EMAIL"  placeholder="Email" type="email">
+                        <span class='btn btn-success input-group-addon' type='button' name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin">Subscribe</span>
+          </div>
+                        <span style="display:none" id="dt_CONTACT_EMAIL">1,true,6,Contact Email,2</span>
+                    </div>
+            <p class='bg-danger' style="display:none" id="errorMsgDiv">Invalid email address</p>
+        <div class='bg-success' style="display:none" id="Zc_SignupSuccess">Verification email sent. Check your inbox.</div>
+
+      <!-- Do not edit the below Zoho Campaigns hidden tags -->
+            <input id="fieldBorder" value="" type="hidden">
+            <input name="zc_trackCode" id="zc_trackCode" value="" onload="" type="hidden">
+            <input id="submitType" name="submitType" value="optinCustomView" type="hidden">
+            <input id="lD" name="lD" value="12c612e315f8161b" type="hidden">
+            <input name="emailReportId" id="emailReportId" value="" type="hidden">
+            <input id="formType" name="formType" value="QuickForm" type="hidden">
+            <input name="zx" id="cmpZuid" value="1314fec8" type="hidden">
+            <input name="zcvers" value="2.0" type="hidden">
+            <input name="oldListIds" id="allCheckedListIds" value="" type="hidden">
+            <input id="mode" name="mode" value="OptinCreateView" type="hidden">
+            <input id="zcld" name="zcld" value="12c612e315f8161b" type="hidden">
+            <input id="document_domain" value="zoho.com" type="hidden">
+            <input id="zc_Url" value="zc1.maillist-manage.com" type="hidden">
+            <input id="zc_formIx" name="zc_formIx" value="9d10499f618d258ae9b34976dc26ece6d467e46ad14833aa" type="hidden"><!-- End of the campaigns hidden tags -->
+    </form>
+    </div>
+    <img src="https://zc1.maillist-manage.com/images/spacer.gif" id="refImage" onload="referenceSetter(this)" style="display:none;">
+</div>
+<div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
+<div id="zcOptinSuccessPopup" style="display:none;z-index: 9999;width: 800px; height: 40%;top: 84px;position: fixed; left: 26%;background-color: #FFFFFF;border-color: #E6E6E6; border-style: solid; border-width: 1px;  box-shadow: 0 1px 10px #424242;padding: 35px;">
+    <span style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;" id="closeSuccess">
+        <img src="https://campaigns.zoho.com/images/videoclose.png">
+    </span>
+    <div id="zcOptinSuccessPanel"></div>
+</div>
+
+<!--Zoho  Web-Optin Form Ends Here-->

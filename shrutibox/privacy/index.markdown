@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: barebones_white_margins
+layout: barebones
 
 app_name: Pocket Shruti Box
 app_link: https://play.google.com/store/apps/details?id=org.kuyil.shrutibox
@@ -22,7 +22,7 @@ The App offers certain features as in-app purchases that enhance or extend the f
 
 ### Automatically Collected Information
 
-Some anonymous information are collected automatically, to help improve quality of the App through crash reporting, analytics modules. These are, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, and information about the way you use the App. 
+Some anonymous information are collected automatically, to help improve quality of the App through crash reporting, analytics modules. These are, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, and information about the way you use the App.
 
 ## Does the App collect precise real time location information of the device?
 

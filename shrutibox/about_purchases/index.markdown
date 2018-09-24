@@ -1,10 +1,10 @@
 ---
 title: Abour Purchases
-layout: barebones_white_margins
+layout: barebones
 app_name: "Pocket Shruti Box"
 app_full_name: "Pocket Shruti Box—The Carnatic Tambura"
 email: "shrutibox@kuyil.org"
-premium: "premium" 
+premium: "premium"
 switch_to_premium: 'use a premium feature'
 ---
 <div class="row">
