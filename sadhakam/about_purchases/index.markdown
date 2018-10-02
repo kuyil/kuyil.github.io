@@ -2,12 +2,13 @@
 title: Abour Purchases
 layout: barebones_white_margins
 app: "Sadhakam"
+app_full_name: "Sadhakam Carnatic Ear Trainer"
 email: "sadhakam@kuyil.org"
 ---
 
 <div class="row">
   <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
-    <img class="img-responsive" src="/images/sadhakam_seal.svg" alt="{{ page.app }} Carnatic Tuner"/>
+    <img class="img-responsive" src="/images/sadhakam_seal.svg" alt="{{ page.app }} Carnatic Ear Trainer"/>
   </div>
 </div>
 
