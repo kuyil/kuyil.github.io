@@ -16,12 +16,13 @@ switch_to_premium: 'switch to "All" swarams mode'
   </div>
 </div>
 
-<div class='row'>
-</div>
-## Buying
+<h2>Buying</h2>
 
-{% include faq/payment_modes.markdown %}
-{% include faq/troubleshoot_premium.markdown %}
-{% include faq/post_purchase_apprehensions.markdown %}
-{% include faq/i_dont_like_it.markdown %}
-{% include faq/footer.markdown %}
+<div id="accordion">
+  {% include faq/payment_modes.html %}
+  {% include faq/troubleshoot_premium.html %}
+  {% include faq/post_purchase_apprehensions.html %}
+  {% include faq/i_dont_like_it.html %}
+</div>
+
+{% include faq/footer.html %}
