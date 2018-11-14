@@ -1,15 +1,5 @@
 <!--Zoho Campaigns Web-Optin Form's Header Code Starts Here-->
 
-{% assign subscribe_title = 'Interested in Carnatic apps?' %}
-{% assign subscribe_button_text = 'Subscribe' %}
-{% assign error_email_id = 'Please enter a valid email id' %}
-
-{% assign class_subscribe_title = 'col h3' %}
-{% assign class_input_email_id = 'col' %}
-{% assign class_subscribe_button = "col btn btn-primary" %}
-
-{% assign class_error_email_id = 'alert alert-danger' %}
-
 <meta content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <link href="https://zcs1.maillist-manage.com/css/ui.theme.css" rel="stylesheet" type="text/css" />
 <link href="https://zcs1.maillist-manage.com/css/ui.datepicker.css" rel="stylesheet" type="text/css" />
@@ -98,30 +88,42 @@ padding:0px !important;
 
 <div id="customForm">
 	<input id="signupFormType" value="QuickForm_Vertical" type="hidden">
-
-    <div class='{{ class_subscribe_title }}' id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">{{ subscribe_title }}</div>
-
-		<div name="SIGNUP_BODY" id="SIGNUP_BODY">
-								<div id="Zc_SignupSuccess" style="display:none">
+	<div>
+		<table class="quick_form_18_css" name="SIGNUP_BODY" id="SIGNUP_BODY" style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255); border: 1px solid rgb(206, 206, 206); padding: 10px 0px; margin: 0px auto; font-family: Arial; bottom: 2px; width: 300px; font-size: 11px; text-align: left;" width="250" cellspacing="0" cellpadding="0" border="0" align="center">
+			<tbody>
+				<tr>
+					<td style="" valign="top" align="center">
+						<div style="color: rgb(1, 176, 255); padding: 15px; font-family: Arial; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; letter-spacing: 1px; font-size: 22px; border-left-style: none; font-weight: 100; text-align: left;" id="SIGNUP_HEADING" name="SIGNUP_HEADING" changeid="SIGNUP_MSG" changetype="SIGNUP_HEADER">Join Our Newsletter</div>
+						<div>
+							<div style="position:relative;">
+								<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all">
+									<table width="100%" cellspacing="0" cellpadding="0" border="0">
+										<tbody>
+											<tr>
+												<td width="10%">
 													<img class="successicon" src="https://zcs1.maillist-manage.com/images/challangeiconenable.jpg" align="absmiddle">
-													<span id="signupSuccessMsg" class="alert alert-success">Thank you for Signing Up</span>
+												</td>
+												<td>
+													<span id="signupSuccessMsg" style="color: rgb(73, 140, 132); font-family: sans-serif; font-size: 14px;word-break:break-word">&nbsp;&nbsp;Thank you for Signing Up</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
-
-							<form method="POST" id="zcampaignOptinForm" action="https://zcs1.maillist-manage.com/campaigns/weboptin.zc" target="_zcSignup">
-								<div style="display:none" class='{{ class_error_email_id }}' id="errorMsgDiv">{{ error_email_id }}</div>
-								<div class='{{ class_input_email_id }}'>
-									<input name="CONTACT_EMAIL" changetype="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" required="true" id="CONTACT_EMAIL" placeholder="Email" type="email">
+							</div>
+							<form method="POST" id="zcampaignOptinForm" style="margin:0px;" action="https://zcs1.maillist-manage.com/campaigns/weboptin.zc" target="_zcSignup">
+								<div style="display:none;background-color:#FFEBE8;padding:10px 10px; color:#d20000; font-size:11px; margin:10px;border:solid 1px #ffd9d3; margin-top:20px;" id="errorMsgDiv">&nbsp;&nbsp;Please correct the marked field(s) below.</div><!-- check to mark emailid field as type email, and other mandatory fields as type required -->
+								<div style="padding-left:15px; padding-right:15px;padding-bottom:15px; padding-top:15px;">
+									<input name="CONTACT_EMAIL" changetype="CONTACT_EMAIL" changeitem="SIGNUP_FORM_FIELD" required="true" id="CONTACT_EMAIL" style="width: 100%; color: rgb(113, 106, 106); background-color: rgb(255, 255, 255); border-color: currentcolor currentcolor rgb(1, 176, 255); border-style: none none solid; padding: 4px; text-align: left; border-image: initial; box-sizing: border-box; text-indent: 5px; border-width: medium medium 2px; outline: currentcolor none 0px; font-family: Arial; border-radius: 0px; font-size: 17px; height: 43px;" placeholder="Email" type="email">
 									<span style="display:none" id="dt_CONTACT_EMAIL">1,true,6,Subscriber Email,2</span>
-								</div><!-- col -->
+								</div><!-- check to mark emailid field as type email, and other mandatory fields as type required --><!-- check to mark emailid field as type email, and other mandatory fields as type required -->
 								<div style="padding-left:15px; padding-right:15px;padding-bottom:15px; padding-top:15px;display:none;">
 									<input name="LASTNAME" changetype="LASTNAME" changeitem="SIGNUP_FORM_FIELD" id="LASTNAME" style="width: 100%; color: rgb(113, 106, 106); background-color: rgb(255, 255, 255); border-color: currentcolor currentcolor rgb(1, 176, 255); border-style: none none solid; padding: 4px; text-align: left; border-image: initial; box-sizing: border-box; text-indent: 5px; border-width: medium medium 2px; outline: currentcolor none 0px; font-family: Arial; border-radius: 0px; font-size: 17px; height: 43px;" placeholder="Name" type="text">
 									<span style="display:none" id="dt_LASTNAME">1,false,1,Last Name,2</span>
 								</div>
 								<div style="padding-left:15px; padding-right:15px;padding-bottom:15px;padding-top:5px;"><!--  different elements for view and edit causing errors<input name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" type="button" style="text-align:center;-webkit-appearance:none;background-color:#a7a7a7; color:#fff; border:solid 1px #999; font-size:12px; padding:6px 10px; width:50%; cursor:pointer;font-family:Arial;" value="Join Now">-->
-									<button name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" class='{{ class_subscribe_button }}'>{{ subscribe_button_text }}</button>
-								</div>
-
-                <!-- Do not edit the below Zoho Campaigns hidden tags -->
+									<button name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" style="background-color: rgb(1, 176, 255); color: rgb(255, 255, 255); cursor: pointer; border: medium none; padding: 6px 10px; outline: currentcolor none 0px; font-family: Arial; border-radius: 26px; width: 50%; font-size: 20px; height: 43px; text-align: center;">Join Now</button>
+								</div><!-- Do not edit the below Zoho Campaigns hidden tags -->
 								<input id="fieldBorder" value="" type="hidden">
 								<input id="submitType" name="submitType" value="optinCustomView" type="hidden">
 								<input id="lD" name="lD" value="12c612e315f8161b" type="hidden">
@@ -137,14 +139,15 @@ padding:0px !important;
 								<input id="new_optin_response_in" value="2" type="hidden">
 								<input id="duplicate_optin_response_in" value="2" type="hidden">
 								<input name="zc_trackCode" id="zc_trackCode" value="" onload="" type="hidden">
-								<input id="zc_formIx" name="zc_formIx" value="9d10499f618d258a5d42cfa9d8dba23ec98e811ca5f0889b" type="hidden">
-                <!-- End of the campaigns hidden tags -->
-
-              </form>
-
-        </div>
+								<input id="zc_formIx" name="zc_formIx" value="9d10499f618d258a5d42cfa9d8dba23ec98e811ca5f0889b" type="hidden"><!-- End of the campaigns hidden tags --></form>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	<img src="https://zcs1.maillist-manage.com/images/spacer.gif" id="refImage" onload="referenceSetter(this)" style="display:none;">
-</div> <!-- custom form -->
+</div>
 <div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
 <div id="zcOptinSuccessPopup" style="display:none;z-index: 9999;width: 800px; height: 40%;top: 84px;position: fixed; left: 26%;background-color: #FFFFFF;border-color: #E6E6E6; border-style: solid; border-width: 1px;  box-shadow: 0 1px 10px #424242;padding: 35px;">
 	<span style="position: absolute;top: -16px;right:-14px;z-index:99999;cursor: pointer;" id="closeSuccess">

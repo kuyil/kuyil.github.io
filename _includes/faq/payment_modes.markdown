@@ -1,6 +1,8 @@
+(markdown file)
 ### How do I buy premium features?
 
 There are several ways to buy. You can:
+
 * Use a credit or debit card.
 * Use Google Play Recharge available at [Paytm](#recharge), <a href='#phonepe'>PhonePe</a> and <a href='#freecharge'>Freecharge</a>.
 * Use <a href='#cash'>cash</a>.

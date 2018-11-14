@@ -3,5 +3,18 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+
+  <!-- jquery ui for accordion https://jqueryui.com/accordion/#collapsible -->
+  <script src="{{ "/assets/javascript/jquery_ui/jquery-ui.min.js" | relative_url }}"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content",
+      collapsible: true
+    });
+  } );
+  </script>
+
   {% include woopra.html %}
+
 </head>
