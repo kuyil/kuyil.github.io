@@ -1,16 +1,8 @@
----
-title: Privacy Policy
-layout: default
-
-app: Pocket Shruti Box
-app_link: https://play.google.com/store/apps/details?id=org.kuyil.shrutibox
-app_email: shrutibox@kuyil.org
-history: https://github.com/kuyil/kuyil.github.io/commits/master/shrutibox/privacy/index.markdown
----
-
 # Privacy Policy
 
-This privacy policy governs your use of the software application [{{ page.app }}]({{ page.app_link }}) ("App") for Android devices that was created by Kuyil. The application plays Tambura drone sounds. It is mainly used while practicing Carnatic music. It's also useful for creating a peaceful atmosphere for meditation.
+This privacy policy governs your use of the software application [{{ page.app }}]({{ page.app_link }}) ("App") for Android devices that was created by Kuyil. {{ page.app_description }}
+
+{{ page.optional_recording_permission_clarification }}
 
 ## What information does the App obtain and how is it used?
 
@@ -42,12 +34,13 @@ We may disclose User Provided and Automatically Collected Information:
 
 ## Automatic Data Collection and Advertising
 
-The App relies on third party libraries for Crash Reporting and Analytics. These libraries collect anonymous usage information like frequency and duration of App usage, device model, Android version, details of a crash or failure in the App etc. Listed below are the services used by the App and their privacy policies. By using the app you are agreeing to these privacy policies also.
+The App relies on third party libraries for {{ page.third_party_services }}. These libraries collect anonymous usage information like frequency and duration of App usage, device model, Android version, details of a crash or failure in the App etc. Listed below are the services used by the App and their privacy policies. By using the app you are agreeing to these privacy policies also.
 
-* Crashlytics [Privacy Policy](http://try.crashlytics.com/terms/privacy-policy.pdf)
-* Firebase [Privacy Policy](https://www.google.com/policies/privacy/)
+{{ page.third_party_privacy_policies }}
 
 ## What are my opt-out rights?
+
+{{ page.optional_opting_out_of_ads }}
 
 You can stop all collection of information by the App easily by uninstalling the App. You may use standard uninstall process as may be available as part of your mobile device or via Google Play store.
 
@@ -67,7 +60,7 @@ We limit access to this information to authorized employees and contractors who 
 
 This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <{{ site.url }}{{ page.url }}> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
-The history of changes made to this policy can be found [here]({{ page.history }} ).
+The history of changes made to this policy can be found [here]({{ page.history }}).
 
 ## Your Consent
 

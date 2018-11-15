@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: barebones
+layout: default
 ---
 
 # Privacy Policy
@@ -33,7 +33,7 @@ We may disclose User Provided and Automatically Collected Information:
 * when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or to a government request;
 * with our trusted services provides who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement;
 * if Kuyil is involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our site of any change in ownership or use of this information, as well as any choices you may have regarding this information;
-* to advertisers and thirdparty advertising networks and analytics companies as described in the section below.
+* to advertisers and third-party advertising networks and analytics companies as described in the section below.
 
 ## Automatic Data Collection
 
@@ -60,7 +60,7 @@ We limit access to this information to authorized employees and contractors who 
 
 ## Changes
 
-This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <http://kuyil.org/sadhakam/privacy> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <{{ site.url }}{{ page.url }}>. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
 The history of changes made to this policy can be found [here](https://github.com/kuyil/kuyil.github.io/commits/master/sadhakam/privacy/index.markdown).
 

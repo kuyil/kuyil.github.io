@@ -1,22 +1,15 @@
 ---
-title: Abour Purchases
-layout: barebones
+title: About Purchases
+layout: default
 app: "Shruti"
 app_full_name: "Shruti Carnatic Tuner"
+app_logo: "/images/shruti_seal.png"
 email: "shruti@kuyil.org"
 premium: "12 Swarams Pack"
 switch_to_premium: 'switch to "All" swarams mode'
 ---
 
-<div class='container'>
-  <div class="row justify-content-sm-center">
-    <div class="col-auto ">
-      <img class="img" src="/images/shruti_seal.png" alt="{{ page.app_full_name }}"/>
-    </div>
-  </div>
-</div>
-
-<h2>Buying</h2>
+{% include faq/buying_heading.html %}
 
 <div id="accordion">
   {% include faq/payment_modes.html %}

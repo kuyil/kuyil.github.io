@@ -29,6 +29,23 @@
   overflow: auto;
 }
 
+.app-logo {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.faq-question {
+  font-size: large;
+}
+
+.faq-answer {
+  font-size: medium;
+}
+
+.footer {
+  font-size: medium;
+}
+
 // local links in about purchases pages scroll to the relevant section, but doesn't expand it.
 // here we visually mark the target to help user locate and manually expand it.
 :target {

@@ -1,22 +1,18 @@
 ---
-title: Abour Purchases
-layout: barebones
+title: About Purchases
+layout: default
 app: "Sadhakam"
 app_full_name: "Sadhakam Carnatic Ear Trainer"
+app_logo: "/images/sadhakam_seal.svg"
 email: "sadhakam@kuyil.org"
 ---
 
-<div class="row">
-  <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-5">
-    <img class="img-responsive" src="/images/sadhakam_seal.svg" alt="{{ page.app }} Carnatic Ear Trainer"/>
-  </div>
-</div>
+{% include faq/buying_heading.html %}
 
 <div id="accordion">
   {% include faq/payment_modes.html %}
   {% include faq/sadhakam_buying_renting.html %}
   {% include faq/sadhakam_i_dont_like_it.html %}
 </div>
-
 
 {% include faq/footer.html %}
