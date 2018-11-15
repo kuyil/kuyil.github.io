@@ -10,11 +10,11 @@ This privacy policy governs your use of the software application [{{ page.app }}
 
 If you email us, we may keep your message, email address, and any other information you provide us, so that we can process and respond to your request.
 
-The App offers certain features as in-app purchases that enhance or extend the functionality of the App. Purchases are handled directly by Google Play by the safety and privacy standards set forth by Google. The App will query Google Play to know the status and details of your purchase in order to enable or disable appropriate features in the App.
+{{ page.in_app_offerings }}. Purchases are handled directly by Google Play by the safety and privacy standards set forth by Google. The App will query Google Play to know the status and details of your purchase in order to enable or disable appropriate features in the App.
 
 ### Automatically Collected Information
 
-Some anonymous information are collected automatically, to help improve quality of the App through crash reporting, analytics modules. These are, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, and information about the way you use the App.
+Some anonymous information is collected automatically, to help improve quality of the App through {{ page.third_party_services }}. This includes, but not limited to, the type of mobile device you use, your mobile device's unique device ID, the IP address of your mobile device, your mobile operating system, and information about the way you use the App.
 
 ## Does the App collect precise real time location information of the device?
 
@@ -32,7 +32,7 @@ We may disclose User Provided and Automatically Collected Information:
 * if Kuyil is involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our site of any change in ownership or use of this information, as well as any choices you may have regarding this information;
 * to advertisers and third-party advertising networks and analytics companies as described in the section below.
 
-## Automatic Data Collection and Advertising
+## Automatic Data Collection
 
 The App relies on third party libraries for {{ page.third_party_services }}. These libraries collect anonymous usage information like frequency and duration of App usage, device model, Android version, details of a crash or failure in the App etc. Listed below are the services used by the App and their privacy policies. By using the app you are agreeing to these privacy policies also.
 
@@ -50,7 +50,7 @@ If you'd like us to delete your data, please contact us at <{{ page.app_email }}
 
 ## Children
 
-We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <{{ page.app_email }}> . We will delete such information from our files within a reasonable time.
+We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <{{ page.app_email }}>. We will delete such information from our files within a reasonable time.
 
 ## Security
 
@@ -58,7 +58,7 @@ We limit access to this information to authorized employees and contractors who 
 
 ## Changes
 
-This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <{{ site.url }}{{ page.url }}> . You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy at <{{ site.url }}{{ page.url }}>. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
 The history of changes made to this policy can be found [here]({{ page.history }}).
 
@@ -68,4 +68,4 @@ By using the App, you are consenting to our processing of your information as se
 
 ## Contact us
 
-If you have any questions regarding privacy while using the App, or have questions about our practices, please contact us via email at <{{ page.app_email }}>
+If you have any questions regarding privacy while using the App, or have questions about our practices, please contact us via email at <{{ page.app_email }}>.
