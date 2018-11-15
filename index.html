@@ -7,97 +7,86 @@ redirect_from: "/shruti/"
 redirect_from: "/sadhakam"
 redirect_from: "/sadhakam/"
 ---
-<!--
-<div class='container hype'>
-<h1>Kuyil<br /><small>Apps Crafted for Carnatic</small></h1>
-</div>
--->
 
 {% assign app_logo_width = 120 %}
 {% assign play_badge_width = 150 %}
 {% assign social_icon_width = 50 %}
-{% assign class_app_card = "card text-center mb-3 py-3" %}
+{% assign class_app_card = "card text-center mx-3 mb-3 py-3" %}
 {% assign class_app_logo = "rounded mx-auto" %}
 {% assign class_app_desc = "short-desc px-3" %}
+{% assign class_social_icon = "col-xs-auto mx-3" %}
+
 
 <div class="container">
 
-    <h1>Kuyil</h1>
-    <h1><small>Apps Crafted for Carnatic</small></h1>
+    <hgroup class="mb-3 text-center">
+    <h1 class="brand_name display-4">Kuyil</h1>
+    <p class="brand_tagline text-muted">Apps Crafted for Carnatic</p>
+    </hgroup>
 
-  <div class="row">
-      <div class="col-md">
-          <div class="{{ class_app_card }}">
-              <div class="app_title">Shruti</div>
-              <div class="app_subtitle">Carnatic Tuner</div>
-              <img class="rounded mx-auto" width="{{ app_logo_width }}" src="/images/shruti_logo.svg" alt="Shruti Carnatic Tuner"/>
-              <p class="{{ class_app_desc }}">Tune instruments or voice to proper Carnatic shruti with automatic swaram detection. </p>
-              <a href='https://play.google.com/store/apps/details?id=org.kuyil.shruti&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                  <img class='img' width="{{ play_badge_width }}" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-                  <!-- <img class='img-responsive' alt="QR code for App's play store link" src='images/shruti_qr_code.svg' />  -->
-              </a>
-          </div>
-      </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="{{ class_app_card }}">
+                <h2 class="app_title">Shruti</h2>
+                <p class="app_subtitle">Carnatic Tuner</p>
+                <img class="rounded mx-auto" width="{{ app_logo_width }}" src="/images/shruti_logo.svg" alt="Shruti Carnatic Tuner"/>
+                <p class="{{ class_app_desc }}">Tune instruments or voice to proper Carnatic shruti with automatic swaram detection. </p>
+                <a href="https://play.google.com/store/apps/details?id=org.kuyil.shruti&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                    <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
+                </a>
+            </div>
+        </div>
 
-      <div class="col-md">
-          <div class="{{ class_app_card }}">
-              <div class="app_title">Sadhakam</div>
-              <div class="app_subtitle">Carnatic Ear Trainer</div>
-              <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/sadhakam_icon.png" alt="Sadhakam Carnatic Ear Trainer"/>
-              <p class="{{ class_app_desc }}">Easiest way to improve your swara gyānam. Learn to identify swarasthanams you hear.</p>
-              <a href='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                  <img class='img' width="{{ play_badge_width }}" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-                  <!-- <img class='img-responsive' alt="QR code for App's play store link" src='images/shruti_qr_code.svg' />  -->
-              </a>
-          </div>
-      </div>
+        <div class="col-md">
+            <div class="{{ class_app_card }}">
+                <h2 class="app_title">Sādhakam</h2>
+                <div class="app_subtitle">Carnatic Ear Trainer</div>
+                <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/sadhakam_icon.png" alt="Sadhakam Carnatic Ear Trainer"/>
+                <p class="{{ class_app_desc }}">Easiest way to improve your swara gyānam. Learn to identify swarasthanams you hear.</p>
+                <a href="https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                    <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
+                </a>
+            </div>
+        </div>
 
-      <div class="col-md">
-          <div class="{{ class_app_card }}">
-              <div class="app_title">Pocket Shrutibox</div>
-              <div class="app_subtitle">Carnatic Tambura</div>
-              <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/shrutibox_logo.svg" alt="Sadhakam Carnatic Ear Trainer"/>
-              <p class="{{ class_app_desc }}">Easiest way to improve your swara gyānam. Learn to identify swarasthanams you hear.</p>
-              <a href='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                  <img class='img' width="{{ play_badge_width }}" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-                  <!-- <img class='img-responsive' alt="QR code for App's play store link" src='images/shruti_qr_code.svg' />  -->
-              </a>
-          </div>
-      </div>
+        <div class="col-md">
+            <div class="{{ class_app_card }}">
+                <h2 class="app_title">Pocket Shruti Box</h2>
+                <div class="app_subtitle">Carnatic Tambura</div>
+                <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/shrutibox_logo.svg" alt="Pocket Shruti Box: Carnatic Tambura"/>
+                <p class="{{ class_app_desc }}">Clear, accurate, and authentic Tambura drone for Carnatic music.</p>
+                <a href='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox&utm_source=kuyil&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                    <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
+                </a>
+            </div>
+        </div>
 
-  </div>
+    </div>
 </div>
 
-<div class='row social text-white justify-content-center'>
-    <div class='col-6'>
-        {% include form_subscribe_newsletter.html %}
-    </div> <!-- col -->
-</div> <!-- row -->
-
-<div class='row justify-content-center social-logo'>
-    <div class="col-xs">
+<div class="row mt-4 justify-content-center social-logo">
+    <div class="{{ class_social_icon }}">
         <a href="https://twitter.com/kuyilorg">
-            <img class="img" width="{{ social_icon_width }}" src="/images/t.png" alt="@kuyilorg"/>
+            <img class="img" width="{{ social_icon_width }}" src="/images/twitter_icon.svg" alt="@kuyilorg"/>
         </a>
     </div>
-    <div class="col-xs">
+    <div class="{{ class_social_icon }}">
         <a href="https://www.facebook.com/kuyilorg">
-            <img class="img" width="{{ social_icon_width }}" src="/images/f.png" alt="@kuyilorg"/>
+            <img class="img" width="{{ social_icon_width }}" src="/images/facebook_icon.svg" alt="@kuyilorg"/>
         </a>
     </div>
-    <div class="col-xs">
-        <a href="https://plus.google.com/108622792521220524741">
-            <img class="img" width="{{ social_icon_width }}" src="/images/g.png" alt="+kuyilorg"/>
-        </a>
-    </div>
-    <div class="col-xs">
+    <div class="{{ class_social_icon }}">
+        <!-- Telegram logo downloaded from
+        https://github.com/telegramdesktop/tdesktop/tree/dev/Telegram/Telegram/Images.xcassets/Icon.iconset -->
         <a href="https://telegram.me/kuyil">
-            <img class="img" width="{{ social_icon_width }}" src="/images/tg.png" alt="@kuyil"/>
+            <img class="img" width="{{ social_icon_width }}" src="/images/telegram_icon.png" alt="@kuyil"/>
         </a>
     </div>
 </div>
 
-<div class="container text-white">
-  <p class='footer'>© Kuyil<br />
-     "Apps Crafted for Carnatic"</p>
+<div class="row mt-5">
+    <div class="col">
+        <p class="text-center">© Kuyil<br />
+        <em>Apps Crafted for Carnatic</em></p>
+    </div>
 </div>
