@@ -6,24 +6,37 @@ redirect_from: "/shruti"
 redirect_from: "/shruti/"
 redirect_from: "/sadhakam"
 redirect_from: "/sadhakam/"
+
+shruti_app_link:    "https://play.google.com/store/apps/details?id=org.kuyil.shruti"
+sadhakam_app_link:  "https://play.google.com/store/apps/details?id=org.kuyil.sadhakam"
+shrutibox_app_link: "https://play.google.com/store/apps/details?id=org.kuyil.shrutibox"
+
+class_col_app_logo: "col-sm-auto"
+class_col_app_text: "col appinfo"
+class_col_play_badge: "col-sm-auto"
+
+class_social_icon: "col-xs-auto mx-1"
+
+play_badge_width: "150"
+app_logo_width: "56"
+social_icon_width: "24"
 ---
 
-{% assign app_logo_width = 96 %}
-{% assign play_badge_width = 150 %}
-{% assign social_icon_width = 50 %}
-{% assign class_app_logo = "rounded mx-auto" %}
-{% assign class_app_desc = "short-desc px-3" %}
-{% assign class_social_icon = "col-xs-auto mx-3" %}
-
+<!-- top bar -->
 <div class="container-fluid">
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="/images/kuyil_logo.svg" width="30" height="30" alt="">
+        </a>
+
+        <a href="https://beautifulnote.com/blog">
+            <div class="btn">Blog</div>
         </a>
     </nav>
 </div>
 
 
+<!-- jumbotron -->
 <div class="container-fluid">
     <div class="jumbotron">
         <div class="row">
@@ -41,86 +54,118 @@ redirect_from: "/sadhakam/"
             </div>
         </a>
     </div>
-</div> <!--container-->
+</div>
 
-
+<!-- app listing -->
 <div class="container">
     <hr />
-    <div class="row">
-        <div class="col">
-            <img class="rounded mx-auto" width="{{ app_logo_width }}" src="/images/shruti_logo.svg" alt="Shruti Carnatic Tuner"/>
+    <div class='row vcenter-desktop'
+     itemscope itemtype="schema.org/MobileApplication">
+        <meta itemprop="operatingSystem" content="Android" />
+        <meta itemprop="applicationCategory" content="Music" />
+        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox'>
+
+        <div class="{{ page.class_col_app_logo }}">
+            <a href="{{ page.shrutibox_app_link }}"> 
+                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='Pocket Shruti Box app logo' src="/images/shrutibox_logo.svg" />
+            </a>
         </div>
-        <div class="col">
-            <h2 class="app_title">Shruti</h2>
-            <p class="app_subtitle">Carnatic Tuner</p>
+
+        <div class="{{ page.class_col_app_text }}">
+            <a href="{{ page.shrutibox_app_link }}"><span itemprop="name">Pocket Shruti Box: Carnatic Tambura</span></a><br />
+            <small><span itemprop="featureList">Authentic tambura sound. Clear and accurate.</span></small>
         </div>
-        <div class="col">
-            <a href="https://play.google.com/store/apps/details?id=org.kuyil.shruti&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
+
+        <div class="{{ page.class_col_play_badge }}">
+            <a itemprop="url"
+               href='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox&utm_source=beautifulnote&utm_campaign=theory-notes-page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+            </a>
+        </div>
+    </div>
+
+
+    <hr />
+    <div class='row vcenter-desktop'
+               itemscope itemtype="schema.org/MobileApplication">
+        <meta itemprop="operatingSystem" content="Android" />
+        <meta itemprop="applicationCategory" content="Music" />
+        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam'>
+
+        <div class="{{ page.class_col_app_logo }}">
+            <a href="{{ page.sadhakam_app_link }}">
+                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='sadhakam app logo' src="{{ site.url }}/images/sadhakam_logo.svg" />
+            </a>
+        </div>
+
+        <div class="{{ page.class_col_app_text }}">
+            <a href="{{ page.sadhakam_app_link }}"><span itemprop="name">Sādhakam Carnatic Ear Trainer</span></a><br />
+            <small><span itemprop="featureList">Easiest way to improve your Swara gyānam! Learn to identify swarasthanas by ear.</span></small>
+        </div>
+
+        <div class="{{ page.class_col_play_badge }}">
+            <a itemprop="url"
+               href='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=beautifulnote&utm_campaign=theory-notes-page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play'
+               src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
+            </a>
+        </div>
+    </div>
+
+    <hr />
+    <div class='row vcenter-desktop'
+               itemscope itemtype="schema.org/MobileApplication">
+        <meta itemprop="operatingSystem" content="Android" />
+        <meta itemprop="applicationCategory" content="Music" />
+        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shruti'>
+
+        <div class="{{ page.class_col_app_logo }}">
+            <a href="{{ page.shruti_app_link }}">
+                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='shruti app logo' src="/images/shruti_logo.svg" />
+            </a>
+        </div>
+
+        <div class="{{ page.class_col_app_text }}">
+            <a href="{{ page.shruti_app_link }}"><span itemprop="name">Shruti Carnatic Tuner</span></a><br />
+            <small><span itemprop="featureList">Tune any instrument quickly. Sing to see which swaram you are singing.</span></small>
+        </div>
+
+        <div class="{{ page.class_col_play_badge }}">
+            <a itemprop="url"
+               href='https://play.google.com/store/apps/details?id=org.kuyil.shruti&utm_source=beautifulnote&utm_campaign=theory-notes-page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
             </a>
         </div>
     </div>
     <hr />
 
-    <div class="row">
-        <div class="col">
-            <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/sadhakam_icon.png" alt="Sadhakam Carnatic Ear Trainer"/>
-        </div>
-        <div class="col">
-            <h2 class="app_title">Sādhakam</h2>
-            <div class="app_subtitle">Carnatic Ear Trainer</div>
-        </div>
-        <div class="col">
-            <a href="https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
-            </a>
-        </div>
-    </div>
-    <hr />
+</div><!-- app listing container-->
 
-    <div class="row">
-        <div class="col">
-            <img class="{{ class_app_logo }}" width="{{ app_logo_width }}" src="/images/shrutibox_logo.svg" alt="Pocket Shruti Box: Carnatic Tambura"/>
-        </div>
-        <div class="col">
-            <h2 class="app_title">Pocket Shruti Box</h2>
-            <div class="app_subtitle">Carnatic Tambura</div>
-        </div>
-        <div class="col">
-            <a href='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox&utm_source=kuyil&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img class="img" width="{{ play_badge_width }}" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/>
-            </a>
-        </div>
-    </div>
-    <hr />
-
-</div><!--container-->
-
-<div class="container">
+<!-- social icons -->
+<div class="container mt-5">
     <div class="row mt-4 justify-content-center social-logo">
-        <div class="{{ class_social_icon }}">
+        <div class="{{ page.class_social_icon }}">
             <a href="https://twitter.com/kuyilorg">
-                <img class="img" width="{{ social_icon_width }}" src="/images/twitter_icon.svg" alt="@kuyilorg"/>
+                <img class="img" width="{{ page.social_icon_width }}" src="/images/twitter_icon.svg" alt="@kuyilorg"/>
             </a>
         </div>
-        <div class="{{ class_social_icon }}">
+        <div class="{{ page.class_social_icon }}">
             <a href="https://www.facebook.com/kuyilorg">
-                <img class="img" width="{{ social_icon_width }}" src="/images/facebook_icon.svg" alt="@kuyilorg"/>
+                <img class="img" width="{{ page.social_icon_width }}" src="/images/facebook_icon.svg" alt="@kuyilorg"/>
             </a>
         </div>
-        <div class="{{ class_social_icon }}">
+        <div class="{{ page.class_social_icon }}">
             <!-- Telegram logo downloaded from
                 https://github.com/telegramdesktop/tdesktop/tree/dev/Telegram/Telegram/Images.xcassets/Icon.iconset -->
                 <a href="https://telegram.me/kuyil">
-                    <img class="img" width="{{ social_icon_width }}" src="/images/telegram_icon.png" alt="@kuyil"/>
+                    <img class="img" width="{{ page.social_icon_width }}" src="/images/telegram_icon.png" alt="@kuyil"/>
                 </a>
         </div>
     </div>
 
-    <div class="row mt-5">
+    <div class="row">
         <div class="col">
-            <p class="text-center">© Kuyil<br />
-            <em>Apps Crafted for Carnatic</em></p>
+            <p class="text-center">©<em>Kuyil Carnatic Apps</em></p>
         </div>
     </div>
 </div>

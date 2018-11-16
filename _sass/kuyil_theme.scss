@@ -10,6 +10,10 @@
 .app_subtitle {
 }
 
+body {
+    margin-top: 100px; // to clear nav bar
+}
+
 .screenshot {
   margin: 8px;
   border: solid;
@@ -60,4 +64,37 @@ h1 {
 // here we visually mark the target to help user locate and manually expand it.
 :target {
   border: solid;
+}
+
+// copied from styling used in beautiful note music theory post
+// apps listing section
+// mobile
+$screen-md-min: 992px;
+@media (max-width: $screen-md-min) {
+    .appinfo {
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+
+    .row {
+        .vcenter-mobile {
+            align-items: center;
+            display: flex;
+        }
+    }
+}
+      
+// desktop
+@media (min-width: $screen-md-min) {
+    .appinfo {
+        text-align: left;
+    }
+
+    .row {
+        .vcenter-desktop {
+            align-items: center;
+            display: flex;
+        }
+    }
 }
