@@ -1,0 +1,63 @@
+.brand_name {
+}
+
+.brand_tagline {
+}
+
+.app_title {
+}
+
+.app_subtitle {
+}
+
+.screenshot {
+  margin: 8px;
+  border: solid;
+}
+
+.ui-accordion .ui-accordion-header {
+  background: #e3f2fd;
+  cursor: pointer;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  outline: none;
+}
+
+.ui-accordion .ui-accordion-header-active {
+  background: #90caf9;
+  outline: none;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+}
+
+.app-logo {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.faq-question {
+  font-size: large;
+}
+
+.faq-answer {
+  font-size: medium;
+}
+
+.footer {
+  font-size: medium;
+}
+
+// local links in about purchases pages scroll to the relevant section, but doesn't expand it.
+// here we visually mark the target to help user locate and manually expand it.
+:target {
+  border: solid;
+}
