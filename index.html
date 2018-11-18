@@ -12,7 +12,7 @@ sadhakam_app_link:  "https://play.google.com/store/apps/details?id=org.kuyil.sad
 shrutibox_app_link: "https://play.google.com/store/apps/details?id=org.kuyil.shrutibox"
 
 class_col_app_logo: "col-sm-auto"
-class_col_app_text: "col appinfo"
+class_col_app_text: "col-sm appinfo"
 class_col_play_badge: "col-sm-auto"
 
 class_social_icon: "col-xs-auto mx-1"
@@ -20,6 +20,7 @@ class_social_icon: "col-xs-auto mx-1"
 play_badge_width: "150"
 app_logo_width: "56"
 social_icon_width: "24"
+brand_logo: "256"
 ---
 
 <!-- top bar -->
@@ -28,10 +29,14 @@ social_icon_width: "24"
         <a class="navbar-brand" href="#">
             <img src="/images/kuyil_logo.svg" width="30" height="30" alt="">
         </a>
-
-        <a href="https://beautifulnote.com/blog">
-            <div class="btn">Blog</div>
-        </a>
+        <ul class="nav">
+            <li class="nav-item">
+        <a class="nav-link" href="https://play.google.com/store/apps/developer?id=Kuyil">APPS</a>
+            </li>
+            <li class="nav-item">
+        <a class="nav-link" href="https://beautifulnote.com/blog">BLOG</a>
+            </li>
+        </ul>
     </nav>
 </div>
 
@@ -39,20 +44,20 @@ social_icon_width: "24"
 <!-- jumbotron -->
 <div class="container-fluid">
     <div class="jumbotron">
-        <div class="row">
+        <div class="row justify-content-sm-center vcenter-mobile">
             <div class="col-sm-auto">
-                <h1 class="brand_name">Kuyil Carnatic Apps</h1>
-                <p class="lead">Authentic, accurate apps crafted for Carnatic</p>
+                <img class="img mx-auto d-block" src="/images/kuyil_logo.svg" alt="kuyil brand logo" width="{{ page.brand_logo }}">
             </div>
-            <div class="col-sm-auto">
-                <img class="img-fluid" src="/images/kuyil_logo.svg" alt="kuyil brand logo" width="96">
+            <div class="col-sm-auto text_desktop_left_mobile_center">
+                <h1 class="brand_name">Kuyil Carnatic Apps</h1>
+                <p class="lead">Apps crafted for carnatic music</p>
+                <a href="https://play.google.com/store/apps/developer?id=Kuyil">
+                    <div class="btn btn-primary">
+                        Our Apps
+                    </div>
+                </a>
             </div>
         </div>
-        <a href="https://play.google.com/store/apps/developer?id=Kuyil">
-            <div class="btn btn-primary">
-                Our Apps
-            </div>
-        </a>
     </div>
 </div>
 
@@ -94,7 +99,7 @@ social_icon_width: "24"
 
         <div class="{{ page.class_col_app_logo }}">
             <a href="{{ page.sadhakam_app_link }}">
-                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='sadhakam app logo' src="{{ site.url }}/images/sadhakam_logo.svg" />
+                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='sadhakam app logo' src="/images/sadhakam_logo.svg" />
             </a>
         </div>
 
