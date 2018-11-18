@@ -6,14 +6,15 @@ shruti_app_link:    "https://play.google.com/store/apps/details?id=org.kuyil.shr
 sadhakam_app_link:  "https://play.google.com/store/apps/details?id=org.kuyil.sadhakam"
 shrutibox_app_link: "https://play.google.com/store/apps/details?id=org.kuyil.shrutibox"
 
-class_col_app_logo: "col-sm-auto"
-class_col_app_text: "col-sm appinfo"
-class_col_play_badge: "col-sm-auto"
+class_row_app: "row vcenter-desktop justify-content-sm-center"
+class_col_app_logo: "col-sm-auto my-auto"
+class_col_app_text: "col-sm-4 appinfo"
+class_col_play_badge: "col-sm-auto my-auto"
 
 class_social_icon: "col-xs-auto mx-1"
 
 play_badge_width: "150"
-app_logo_width: "56"
+app_logo_width: "96"
 social_icon_width: "24"
 brand_logo: "256"
 ---
@@ -26,10 +27,10 @@ brand_logo: "256"
         </a>
         <ul class="nav">
             <li class="nav-item">
-        <a class="nav-link" href="https://play.google.com/store/apps/developer?id=Kuyil">APPS</a>
+                <a class="nav-link" href="https://play.google.com/store/apps/developer?id=Kuyil">APPS</a>
             </li>
             <li class="nav-item">
-        <a class="nav-link" href="https://beautifulnote.com/blog">BLOG</a>
+                <a class="nav-link" href="https://beautifulnote.com/blog">BLOG</a>
             </li>
         </ul>
     </nav>
@@ -59,8 +60,7 @@ brand_logo: "256"
 <!-- app listing -->
 <div class="container">
     <hr />
-    <div class='row vcenter-desktop'
-     itemscope itemtype="schema.org/MobileApplication">
+    <div class='{{ page.class_row_app }}' itemscope itemtype="schema.org/MobileApplication">
         <meta itemprop="operatingSystem" content="Android" />
         <meta itemprop="applicationCategory" content="Music" />
         <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox'>
@@ -72,8 +72,12 @@ brand_logo: "256"
         </div>
 
         <div class="{{ page.class_col_app_text }}">
-            <a href="{{ page.shrutibox_app_link }}"><span itemprop="name">Pocket Shruti Box: Carnatic Tambura</span></a><br />
-            <small><span itemprop="featureList">Authentic tambura sound. Clear and accurate.</span></small>
+            <h2 class="app-title">
+                <a href="{{ page.shrutibox_app_link }}"><span itemprop="name">Pocket Shruti Box</span></a>
+                <br />
+                <small>Carnatic Tambura</small>
+            </h2>
+            <p class="app-description"><span itemprop="featureList">Concert grade shruti box app. Authentic tambura sound. Very accurate. Clear even on phone speakers. Sounds great with external speakers and headphones.</span></p>
         </div>
 
         <div class="{{ page.class_col_play_badge }}">
@@ -86,7 +90,7 @@ brand_logo: "256"
 
 
     <hr />
-    <div class='row vcenter-desktop'
+    <div class='{{ page.class_row_app }}'
                itemscope itemtype="schema.org/MobileApplication">
         <meta itemprop="operatingSystem" content="Android" />
         <meta itemprop="applicationCategory" content="Music" />
@@ -99,8 +103,12 @@ brand_logo: "256"
         </div>
 
         <div class="{{ page.class_col_app_text }}">
-            <a href="{{ page.sadhakam_app_link }}"><span itemprop="name">Sādhakam Carnatic Ear Trainer</span></a><br />
-            <small><span itemprop="featureList">Easiest way to improve your Swara gyānam! Learn to identify swarasthanas by ear.</span></small>
+            <h2 class="app-title">
+                <a href="{{ page.sadhakam_app_link }}"><span itemprop="name">Sādhakam</span></a>
+                <br />
+                <small>Carnatic Ear Trainer</small>
+            </h2>
+            <p class="app-description"><span itemprop="featureList">Easily improve your swara gyānam with interactive exercises. Develop the skill to identify swarams from what you hear.</span></p>
         </div>
 
         <div class="{{ page.class_col_play_badge }}">
@@ -113,8 +121,7 @@ brand_logo: "256"
     </div>
 
     <hr />
-    <div class='row vcenter-desktop'
-               itemscope itemtype="schema.org/MobileApplication">
+    <div class='{{ page.class_row_app }}' itemscope itemtype="schema.org/MobileApplication">
         <meta itemprop="operatingSystem" content="Android" />
         <meta itemprop="applicationCategory" content="Music" />
         <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shruti'>
@@ -126,8 +133,12 @@ brand_logo: "256"
         </div>
 
         <div class="{{ page.class_col_app_text }}">
-            <a href="{{ page.shruti_app_link }}"><span itemprop="name">Shruti Carnatic Tuner</span></a><br />
-            <small><span itemprop="featureList">Tune any instrument quickly. Sing to see which swaram you are singing.</span></small>
+            <h2 class="app-title">
+                <a href="{{ page.shruti_app_link }}"><span itemprop="name">Shruti</span></a>
+                <br />
+                <small>Carnatic Tuner</small>
+            </h2>
+            <p class="app-description"><span itemprop="featureList">Instantly see the swaram you're singing or playing. Tune any instrument accurately. Perfect your singing and playing.</span></p>
         </div>
 
         <div class="{{ page.class_col_play_badge }}">

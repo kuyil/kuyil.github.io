@@ -36,9 +36,27 @@ h1 {
     padding: 0px 16px 0px 16px;
 }
 
+.nav-item {
+    font-size: small;
+}
+
 .app-logo {
   margin-top: 16px;
   margin-bottom: 32px;
+}
+
+.app-title {
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.app-title small {
+    color: #424242;
+}
+
+.app-description {
+    color: #757575;
 }
 
 .screenshot {
