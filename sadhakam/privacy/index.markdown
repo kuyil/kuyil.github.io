@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: default
+layout: kuyil_with_container
 
 app: Sadhakam Carnatic Ear Trainer
 app_link: https://play.google.com/store/apps/details?id=org.kuyil.sadhakam

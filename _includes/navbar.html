@@ -1,0 +1,21 @@
+{% if page.url == '/' %}
+{%    assign home = '#' %}
+{% else %}
+{%    assign home = site.url %}
+{% endif %}
+
+<div class="container-fluid">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="{{ home }}">
+            <img src="/images/kuyil_logo.svg" width="30" height="30" alt="">
+        </a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://play.google.com/store/apps/developer?id=Kuyil">APPS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://beautifulnote.com/blog">BLOG</a>
+            </li>
+        </ul>
+    </nav>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: barebones
+layout: kuyil
 title: Kuyil Carnatic Apps
 
 shruti_app_link:    "https://play.google.com/store/apps/details?id=org.kuyil.shruti"
@@ -11,31 +11,10 @@ class_col_app_logo: "col-sm-auto my-auto"
 class_col_app_text: "col-md-5 appinfo"
 class_col_play_badge: "col-sm-auto my-auto"
 
-class_social_icon: "col-xs-auto mx-2 my-auto"
-
 play_badge_width: "150"
 app_logo_width: "96"
-social_icon_width: "20"
 brand_logo: "256"
 ---
-
-<!-- top bar -->
-<div class="container-fluid">
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="/images/kuyil_logo.svg" width="30" height="30" alt="">
-        </a>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="https://play.google.com/store/apps/developer?id=Kuyil">APPS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://beautifulnote.com/blog">BLOG</a>
-            </li>
-        </ul>
-    </nav>
-</div>
-
 
 <!-- jumbotron -->
 <div class="container-fluid">
@@ -151,33 +130,3 @@ brand_logo: "256"
     <hr />
 
 </div><!-- app listing container-->
-
-<!-- social icons -->
-<div class="container-fluid mt-5 bg-light">
-    <div class="row social-logo py-2 footer">
-        <div class="col-xs-auto ml-auto mr-5"><p class="text-muted my-auto">© Kuyil</p></div>
-
-        <div class="{{ page.class_social_icon }}">
-            <a href="https://www.facebook.com/kuyilorg">
-                <img class="img" width="{{ page.social_icon_width }}" src="/images/facebook_logo_monochrome.svg" alt="@kuyilorg"/>
-            </a>
-        </div>
-        <div class="{{ page.class_social_icon }}">
-            <a href="https://twitter.com/kuyilorg">
-                <img class="img" width="{{ page.social_icon_width }}" src="/images/twitter_logo_monochrome.svg" alt="@kuyilorg"/>
-            </a>
-        </div>
-        <div class="{{ page.class_social_icon }}">
-            <a href="https://www.youtube.com/c/KuyilCarnaticApps">
-                <img class="img" width="{{ page.social_icon_width }}" src="/images/youtube_logo_monochrome.svg" alt="@kuyilorg"/>
-            </a>
-        </div>
-        <div class="{{ page.class_social_icon }} mr-auto">
-            <!-- Telegram logo downloaded from
-                https://github.com/telegramdesktop/tdesktop/tree/dev/Telegram/Telegram/Images.xcassets/Icon.iconset -->
-                <a href="https://telegram.me/kuyil">
-                    <img class="img" width="{{ page.social_icon_width }}" src="/images/telegram_logo_monochrome.svg" alt="@kuyil"/>
-                </a>
-        </div>
-    </div>
-</div>
