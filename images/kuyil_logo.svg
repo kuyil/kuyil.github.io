@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="kuyil_logo.svg"
+   inkscape:export-filename="/home/ragu/code/common/seeds/playstore/kuyil_developer_icon_512x512.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8242188"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showborder="true"
+     inkscape:snap-global="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background"
+     style="display:inline">
+    <circle
+       r="62.08889"
+       cy="67.73333"
+       cx="67.73333"
+       id="circle889"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.05850017;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:label="logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-161.53332)"
+     style="display:inline">
+    <g
+       id="g6276"
+       transform="translate(435.3972,-193.16362)">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#546e7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="M -393.17204,386.90485 V 389.16466 408.05188 C -409.83695,412.88175 -420.44209,427.13748 -417.60155,442.09269 -414.68182,457.46477 -398.76441,468.34309 -380.52731,468.15312 -362.29027,467.96317 -346.69382,456.74341 -344.24582,441.30928 -341.867,426.31123 -352.8642,412.31869 -369.63291,407.82295 V 398.79353 L -350.77359,393.8114 -351.17563,389.65145 Z M -388.93768,391.42447 -364.3867,393.03006 -373.86521,395.53378 V 411.29561 L -372.76552,411.89919 C -366.98668,415.06176 -363.39832,421.11589 -363.39813,427.70391 -363.39827,437.67938 -371.43935,445.71922 -381.41409,445.71935 -391.38901,445.71947 -399.42941,437.67955 -399.42954,427.70391 -399.42113,421.11523 -395.82481,415.06407 -390.04096,411.90901 L -388.93768,411.30749 Z M -363.51132,414.65664 C -352.80289,420.1052 -346.76987,430.20418 -348.42592,440.64524 -350.4826,453.61225 -364.04398,463.74865 -380.57229,463.92081 -397.10057,464.09298 -410.98593,454.2277 -413.44108,441.30153 -415.37775,431.10509 -409.93474,421.10265 -399.81091,415.37546 -402.26175,418.94662 -403.65864,423.20506 -403.66391,427.69977 V 427.70184 427.70391 C -403.66375,439.96729 -393.677,449.95386 -381.41409,449.95372 -369.15139,449.95354 -359.16602,439.96708 -359.16583,427.70391 -359.16597,422.90567 -360.74966,418.37182 -363.51132,414.65664 Z"
+         id="path6272"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6274"
+         style="opacity:1;fill:#cc0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.2329998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M -378.4822,398.48241 A 2.2434616,2.2434616 0 0 1 -380.72566,400.72587 2.2434616,2.2434616 0 0 1 -382.96912,398.48241 2.2434616,2.2434616 0 0 1 -380.72566,396.23895 2.2434616,2.2434616 0 0 1 -378.4822,398.48241 Z M -337.7568,376.43481 -336.0061,391.47808 C -339.59061,390.38359 -342.64485,392.28235 -343.13697,393.89623 -344.02588,396.81139 -342.20097,399.99968 -337.14663,399.52309 -334.01081,399.22375 -332.24526,396.83698 -332.4721,394.02743 L -334.0491,380.06824 -328.15224,379.45256 -328.8238,375.819 Z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot6746"
+     style="fill:#000000;-inkscape-font-specification:'Roboto Light';font-family:Roboto;font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:20px;fill-opacity:1;stroke:#000000;opacity:1;stroke-opacity:1;stroke-width:15.99874016;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill-rule:nonzero;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><flowRegion
+       id="flowRegion6748"
+       style="font-size:21.33333333px;"><rect
+         id="rect6750"
+         width="1810.9686"
+         height="327.06012"
+         x="-635.69958"
+         y="-435.25485"
+         style="font-size:21.33333333px;" /></flowRegion><flowPara
+       id="flowPara6752" /></flowRoot></svg>

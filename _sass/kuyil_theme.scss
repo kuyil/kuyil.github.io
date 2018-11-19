@@ -1,17 +1,15 @@
-.brand_name {
+body {
+  margin-top: 60px;
 }
 
-.brand_tagline {
+h1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.app_title {
-}
-
-.app_subtitle {
-}
-
-.screenshot {
-  margin: 8px;
+// local links in about purchases pages scroll to the relevant section, but doesn't expand it.
+// here we visually mark the target to help user locate and manually expand it.
+:target {
   border: solid;
 }
 
@@ -34,14 +32,40 @@
   overflow: auto;
 }
 
+.navbar {
+    padding: 0px 16px 0px 16px;
+}
+
+.nav-item {
+    font-size: small;
+}
+
+.nav-link {
+    color: white;
+}
+
 .app-logo {
   margin-top: 16px;
   margin-bottom: 32px;
 }
 
-h1 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+.app-title {
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.app-title small {
+    color: #424242;
+}
+
+.app-description {
+    color: #757575;
+}
+
+.screenshot {
+  margin: 8px;
+  border: solid;
 }
 
 .faq-question {
@@ -53,11 +77,50 @@ h1 {
 }
 
 .footer {
-  font-size: medium;
+    font-size: small;
 }
 
-// local links in about purchases pages scroll to the relevant section, but doesn't expand it.
-// here we visually mark the target to help user locate and manually expand it.
-:target {
-  border: solid;
+// copied from styling used in beautiful note music theory post
+// apps listing section
+// mobile
+$screen-sm-min: 576px;
+
+@media (max-width: $screen-sm-min) {
+    .appinfo {
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+
+    .text_desktop_left_mobile_center {
+        text-align: center;
+    }
+
+
+    .row {
+        .vcenter-mobile {
+            align-items: center;
+            display: flex;
+        }
+    }
+}
+
+// desktop
+@media (min-width: $screen-sm-min) {
+    .appinfo {
+        text-align: left;
+    }
+
+    .text_desktop_left_mobile_center {
+        text-align: left;
+    }
+
+
+
+    .row {
+        .vcenter-desktop {
+            align-items: center;
+            display: flex;
+        }
+    }
 }
