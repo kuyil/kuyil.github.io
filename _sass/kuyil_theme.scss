@@ -61,6 +61,7 @@ h1 {
 
 .app-description {
     color: #757575;
+    margin-bottom: 0px;
 }
 
 .screenshot {
@@ -83,9 +84,21 @@ h1 {
 // copied from styling used in beautiful note music theory post
 // apps listing section
 // mobile
+
+// Small devices (landscape phones, 576px and up)
 $screen-sm-min: 576px;
 
-@media (max-width: $screen-sm-min) {
+// Medium devices (tablets, 768px and up)
+$screen-md-min: 768px;
+
+// Large devices (desktops, 992px and up)
+$screen-lg-min: 992px;
+
+// Extra large devices (large desktops, 1200px and up)
+$screen-xl-min: 1200px;
+
+$screen-breakpoint-for-home-page: $screen-md-min;
+@media (max-width: $screen-breakpoint-for-home-page) {
     .appinfo {
         text-align: center;
         margin-top: 12px;
@@ -106,7 +119,7 @@ $screen-sm-min: 576px;
 }
 
 // desktop
-@media (min-width: $screen-sm-min) {
+@media (min-width: $screen-breakpoint-for-home-page) {
     .appinfo {
         text-align: left;
     }
@@ -114,8 +127,6 @@ $screen-sm-min: 576px;
     .text_desktop_left_mobile_center {
         text-align: left;
     }
-
-
 
     .row {
         .vcenter-desktop {
