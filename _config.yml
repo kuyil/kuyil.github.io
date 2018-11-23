@@ -1,7 +1,8 @@
 # Site settings
-title: kuyil
+title: &title Kuyil Carnatic Apps
 email: admin@kuyil.org
 description: > # this means to ignore newlines until "baseurl:"
+    Apps crafted for Carnatic
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Build settings
@@ -10,3 +11,46 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+
+apps:
+    shruti:
+        email: shruti@kuyil.org
+        link: https://play.google.com/store/apps/details?id=org.kuyil.shruti
+        full_name: Shruti Carnatic Tuner
+        logo: /images/shruti_seal.png
+    sadhakam:
+        link: https://play.google.com/store/apps/details?id=org.kuyil.sadhakam
+    shrutibox:
+        link: https://play.google.com/store/apps/details?id=org.kuyil.shrutibox
+
+# seo
+url: https://kuyil.org
+
+logo: /images/kuyil_logo.svg 
+
+twitter:
+    username: kuyilorg
+    card: summary
+    link: &twitter https://twitter.com/kuyilorg
+
+facebook:
+    publisher: https://www.facebook.com/kuyilorg/
+    link: &facebook https://www.facebook.com/kuyilorg/
+
+youtube:
+    link: &youtube https://www.youtube.com/c/KuyilCarnaticApps
+
+googleplay:
+    link: &googleplay https://play.google.com/store/apps/developer?id=Kuyil
+
+telegram:
+    link: &telegram https://telegram.me/kuyil
+
+social: #TODO check if these appear in seo
+    name: *title
+    links:
+        - *twitter
+        - *facebook
+        - *youtube
+        - *googleplay
+        - *telegram
