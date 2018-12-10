@@ -54,3 +54,5 @@ social: #TODO check if these appear in seo
         - *youtube
         - *googleplay
         - *telegram
+
+external_link: 'target="_blank" rel="noopener noreferrer"'
