@@ -3,13 +3,16 @@
 
 {% assign class_div_img_3_col = "col-sm" %}
 {% assign class_img_screenshot = "img-fluid lazyload screenshot" %}
+{% assign text_recharge_outlets = "<a href='#recharge'>Paytm</a>, <a href='#phonepe'>PhonePe</a>, <a href='#mobikwik'>MobiKwik</a>, <a href='#freecharge'>Freecharge</a> or <a href='#amazon'>Amazon</a>" %}
+{% assign link_paytm_recharge = "https://paytm.com/google-play-gift-card-recharge" %}
+{% assign text_redeem_code = "Once you have the code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features." %}
 
 <h3 class='faq-question'>How do I buy premium features?</h3>
 <div class='faq-answer'>
     <p>There are several ways to buy. You can:</p>
     <ul>
-        <li> Use a credit or debit card.</li>
-        <li> Use Google Play Recharge available at <a href='#recharge'>Paytm</a>, <a href='#phonepe'>PhonePe</a>, <a href='#mobikwik'>MobiKwik</a>, <a href='#freecharge'>Freecharge</a> and <a href='#amazon'>Amazon</a>.</li>
+        <li> Use a credit or debit card. (If you have RuPay card, <a href='#rupay'>read this first</a>)</li>
+        <li> Use Google Play Recharge available at {{ text_recharge_outlets }}.</li>
         <li> Use <a href='#cash'>cash</a>.</li>
         <li> Get a Google Play <a href='#gift_card'>Gift Card</a>.</li>
         <li> Use <a href='#upi'>BHIM/UPI</a>.</li>
@@ -25,7 +28,7 @@
 
 <h3 class='faq-question' id='recharge'>Can I use Paytm?</h3>
 <div class='faq-answer'>
-    <p>Yes. You can buy <a href='https://paytm.com/google-play-gift-card-recharge'>Google Play Recharge code</a> from Paytm. You'll get the code immediately. You can use the recharge code to buy our premium features. Follow these instructions for getting the code:</p>
+    <p>Yes. You can buy <a href='{{ link_paytm_recharge }}'>Google Play Recharge code</a> from Paytm. You'll get the code immediately. You can use the recharge code to buy our premium features. Follow these instructions for getting the code:</p>
     <div class='row'>
         <div class="{{ class_div_img_3_col }}">
             <img class="{{ class_img_screenshot }}"
@@ -44,7 +47,7 @@
         </div>
     </div>
     <br />
-    <p>Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p><a href='{{ link_paytm_recharge }}'>Click here</a> to get Google Play Recharge code, and <a href='#redeem_gift_card'>follow these steps</a> to use this code to buy our premium features.</p>
 </div>
 
 <h3 class='faq-question' id='amazon'>Can I use Amazon?</h3>
@@ -54,7 +57,7 @@
         <li> <a href='https://www.amazon.in/Google-Play-Gift-Code-Digital/dp/B07BV1ZMVN/'>Google Play Gift Code (Digital)</a></li>
         <li><a href='https://www.amazon.in/Google-Play-Gift-Card-Rs-1500/dp/B07DVWRVW1/'>Google Play Gift Card (Physical)</a></li>
     </ul>
-    <p>Once you have the code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
 </div>
 
 <h3 class='faq-question' id='mobikwik'>Can I use MobiKwik?</h3>
@@ -67,7 +70,7 @@
             alt="Paytm Google Play Recharge"/>
         </div>
     </div>
-    <p>You'll get the code immediately. Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>You'll get the code immediately. {{ text_redeem_code }}</p>
 </div>
 
 <h3 class='faq-question' id='freecharge'>Can I use Freecharge?</h3>
@@ -90,7 +93,7 @@
             alt="Freecharge Google Play Recharge - Enter amount"/>
         </div>
     </div>
-    <p>Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
 </div>
 
 <h3 class='faq-question' id='phonepe'>Can I use PhonePe?</h3>
@@ -108,25 +111,21 @@
             alt="Google Play Recharge - Enter amount"/>
         </div>
     </div>
-    <p>Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
 </div>
 
 <h3 class='faq-question' id='other-wallets'>Can I use some other mobile wallet?</h3>
 <div class='faq-answer'>
     <p>Check if you can buy a Google Play Recharge code, or Google Play Gift Code with your mobile wallet. Many wallets offer these. Here's the <a href='https://play.google.com/about/giftcards/#giftcards-retailers'>official list of retailers</a>.</p>
-    <p>Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
 </div>
 
 
 <h3 class='faq-question' id='upi'>Can I use BHIM/UPI?</h3>
 <div class='faq-answer'>
-    <p>Yes. You can use BHIM/UPI payment method to get a Google Play Recharge from Paytm or PhonePe.</p>
-    <ul>
-        <li> To get Google Play Recharge from Paytm, <a href='https://paytm.com/google-play-gift-card-recharge'>click here</a>.</li>
-        <li> For instructions on getting Google Play Recharge using PhonePe app, <a href="#phonepe">click here</a>.</li>
-    </ul>
+    <p>Yes. You can use BHIM/UPI payment method to get a Google Play Recharge from {{ text_recharge_outlets }}.</p>
     <p>You'll get the code immediately. You can use the recharge code to buy our premium features.</p>
-    <p>Once you have your Google Play Recharge Code, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
 </div>
 
 <h3 class='faq-question' id='netbanking'>Can I use netbanking?</h3>
@@ -161,13 +160,24 @@
 <h3 class='faq-question' id='cash'>Can I use cash?</h3>
 <div class='faq-answer'>
     <p>You can buy a <em>Google Play Gift Card</em> from a <a href='https://play.google.com/about/giftcards/'>local retailer</a> or an online shop like <a href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a> or <a href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> using cash as the payment method.</p>
-    <p>Once you have your Google Play Gift Card, <a href='#redeem_gift_card'>follow these steps</a> to use it to buy our premium features.</p>
+    <p>{{ text_redeem_code }}</p>
+</div>
+
+
+<h3 class='faq-question' id='rupay'>Can I use RuPay credit or debit card?</h3>
+<div class='faq-answer'>
+    <p>Google Play currently does not accept RuPay cards. However, you can still use your RuPay card to get our premium features. Following these steps:</p>
+    <ol>
+        <li>Get a Google Play Recharge code from {{ text_recharge_outlets }}.</li>
+        <li>{{ text_redeem_code }}</li>
+    </ol>
+
 </div>
 
 <h3 class='faq-question' id='gift_card'>Are physical gift cards available?</h3>
 <div class='faq-answer'>
     <p>Yes. <a href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a>, <a href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> and other <a href='https://play.google.com/about/giftcards/'>retailers</a> sell Google Play gift cards. The same gift cards may be available at shops near you.</p>
-    <p>Once you have a Google Play gift card, you can use it to buy our in-app features <a href='#redeem_gift_card'>as detailed here</a>.</p>
+    <p>{{ text_redeem_code }}</p>
     <div class='row'>
         <div class="col">
             <img class="img-fluid mx-auto d-block lazyload"
@@ -255,9 +265,11 @@
     <p>Don't worry. Your money is safe. Millions of purchases happen every day. Problems are extremely rare. Worst case scenarios are well thought out by Google. If the issue is specific to our app, you can always contact us at <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
 </div>
 
-<h3 class='faq-question'>My credit/debit card is not accepted!</h3>
+<h3 class='faq-question'>My credit or debit card is not accepted!</h3>
 <div class='faq-answer'>
-    <p>Google does not accept some cards (e.g. RuPay). If your card is not accepted, please try a different card or use <a href='#without_card'>other payment methods</a>.</p>
+     <p>Google does not accept some cards (e.g. RuPay). You can still use your card to make sucessful purchase indirectly. You can get Google Play recharge code using your card from {{ text_recharge_outlets }}. Once you have the code, <a href='#redeem_gift_card'>follow these steps</a> to buy our premium features.</p>
+      
+    <p>Alternativlely, you can try a different card or use <a href='#without_card'>other payment methods</a>.</p>
 </div>
 
 <h3 class='faq-question' id='without_card'>I don't have credit/debit cards. Can I still buy?</h3>
