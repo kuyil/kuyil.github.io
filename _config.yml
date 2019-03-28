@@ -55,4 +55,5 @@ social: #TODO check if these appear in seo
         - *googleplay
         - *telegram
 
+# site level variables
 external_link: 'target="_blank" rel="noopener noreferrer"'
