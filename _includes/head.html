@@ -29,6 +29,10 @@
   } );
   </script>
 
+  {% if include.additional_css %}
+    <link rel="stylesheet" href='{{ include.additional_css | absolute_url }}'>
+  {% endif %}
+
   {% include woopra.html %}
   {% seo %}
 </head>

@@ -4,8 +4,15 @@
 {%    assign home = site.url %}
 {% endif %}
 
+{% if include.movable_navbar %}
+{%    assign nav_placement = '' %}
+{% else %}
+{%    assign nav_placement = 'fixed-top' %}
+{% endif %}
+
+
 <div class="container-fluid">
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-dark bg-dark {{ nav_placement }}">
         <a class="navbar-brand" href="{{ home }}">
             <img src="/images/kuyil_logo.svg" width="30" height="30" alt="">
         </a>
