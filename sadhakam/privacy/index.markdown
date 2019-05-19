@@ -6,7 +6,7 @@ app: Sadhakam Carnatic Ear Trainer
 app_link: https://play.google.com/store/apps/details?id=org.kuyil.sadhakam
 app_email: sadhakam@kuyil.org
 
-app_description: "The application is an ear trainer for Carnatic music, which helps the user to improve their swara gyānam. It provides exercises where the user gradually learns to identify and distinguish different swara sthanas."
+app_description: "The application is an ear trainer for Carnatic music, which helps the user to improve their swara gnanam. It provides exercises where the user gradually learns to identify and distinguish different swara sthanas."
 
 in_app_offerings: "The App offers in-app products and subscriptions that unlock additional exercises"
 
