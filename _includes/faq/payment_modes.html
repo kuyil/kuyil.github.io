@@ -4,6 +4,7 @@
 {% assign class_div_img_3_col = "col-sm" %}
 {% assign class_img_screenshot = "img-fluid lazyload screenshot" %}
 {% assign text_recharge_outlets = "<a href='#recharge'>Paytm</a>, <a href='#phonepe'>PhonePe</a>, <a href='#mobikwik'>MobiKwik</a>, <a href='#freecharge'>Freecharge</a> or <a href='#amazon'>Amazon</a>" %}
+{% assign text_upi_providers = "BHIM, GPay, PhonePe, etc" %}
 {% assign link_paytm_recharge = "https://paytm.com/google-play-gift-card-recharge" %}
 {% assign link_mobikwik_recharge = "https://www.mobikwik.com/google-play" %}
 {% assign link_freecharge_recharge = "https://www.freecharge.in/google-play-recharge" %}
@@ -17,7 +18,7 @@
         <li> Use {{ text_recharge_outlets }}.</li>
         <li> Use <a href='#cash'>cash</a>.</li>
         <li> Get a Google Play <a href='#gift_card'>Gift Card</a>.</li>
-        <li> Use <a href='#upi'>BHIM/UPI</a>.</li>
+        <li> Use <a href='#upi'>UPI</a> ID from <b>{{ text_upi_providers }}</b>.</li>
         <li> Use <a href='#netbanking'>netbanking</a>.</li>
         <li> Pay through your <a href='#carrier_billing'>mobile bill/balance</a>.</li>
     </ul>
@@ -122,10 +123,9 @@
     <p>{{ text_redeem_code }}</p>
 </div>
 
-
-<h3 class='faq-question' id='upi'>Can I use BHIM/UPI?</h3>
+<h3 class='faq-question' id='upi'>Can I use my UPI ID from {{ text_upi_providers }}?</h3>
 <div class='faq-answer'>
-    <p>Yes. You can use BHIM/UPI payment method to get a Google Play Recharge from {{ text_recharge_outlets }}.</p>
+    <p>Yes. You can get Google Play Recharge code using your UPI ID from <b>{{ text_upi_providers }}</b> at {{ text_recharge_outlets }}.</p>
     <p>You'll get the code immediately. {{ text_redeem_code }}</p>
 </div>
 
