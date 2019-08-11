@@ -1,6 +1,6 @@
 # Privacy Policy
 
-This privacy policy governs your use of the software application <a {{ site.external_link }} href="{{ page.app_link }}">{{ page.app }}</a> ("App") for Android devices that was created by Kuyil. {{ page.app_description }}
+This privacy policy governs your use of the software application <a {{ site.external_link }} href="{{ app_link }}">{{ app_full_name }}</a> ("App") for Android devices that was created by Kuyil. {{ page.about_app }}
 
 {{ page.optional_recording_permission_clarification }}
 
@@ -46,11 +46,11 @@ You can stop all collection of information by the App easily by uninstalling the
 
 ## Data Retention Policy, Managing Your Information
 
-If you'd like us to delete your data, please contact us at <{{ page.app_email }}> and we will respond in a reasonable time.
+If you'd like us to delete your data, please contact us at <{{ app_email }}> and we will respond in a reasonable time.
 
 ## Children
 
-We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <{{ page.app_email }}>. We will delete such information from our files within a reasonable time.
+We do not use the App to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <{{ app_email }}>. We will delete such information from our files within a reasonable time.
 
 ## Security
 
@@ -68,4 +68,4 @@ By using the App, you are consenting to our processing of your information as se
 
 ## Contact us
 
-If you have any questions regarding privacy while using the App, or have questions about our practices, please contact us via email at <{{ page.app_email }}>.
+If you have any questions regarding privacy while using the App, or have questions about our practices, please contact us via email at <{{ app_email }}>.

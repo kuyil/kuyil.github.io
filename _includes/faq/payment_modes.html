@@ -13,31 +13,31 @@
   <p>Yes. It's a <strong>two step</strong> process:</p>
   <ol>
     <li>Get a <strong>Google Play Recharge code</strong> from WALLET.</li>
-    <li>Redeem the code in <strong>{{ page.app }} app</strong> and complete the purchase.</li>
+    <li>Redeem the code in <strong>{{ app }} app</strong> and complete the purchase.</li>
   </ol>
   <p>That's it. Here are the details:</p>
 {% endcapture %}
 
 {% capture text_recharge_code_redeem %}
-    <p><strong>Step 2</strong> Open <strong>{{ page.app }} app</strong>. Start the purchase and <strong>redeem</strong> the code as shown below. This will update your Google Play balance. Finally, complete the purchase using your Google Play balance.</p>
+    <p><strong>Step 2</strong> Open <strong>{{ app }} app</strong>. Start the purchase and <strong>redeem</strong> the code as shown below. This will update your Google Play balance. Finally, complete the purchase using your Google Play balance.</p>
     <div class='row'>
         <div class="{{ class_div_img_3_col }}">
             <img class="{{ class_img_screenshot }}"
-            data-src="/images/{{ page.app_codename }}/buying_redeem_1.jpg"
+            data-src="/images/{{ app_code_name }}/buying_redeem_1.jpg"
             alt="purchase dialog"/>
         </div>
         <div class="{{ class_div_img_3_col }}">
             <img class="{{ class_img_screenshot }}"
-            data-src="/images/{{ page.app_codename }}/buying_redeem_2.jpg"
+            data-src="/images/{{ app_code_name }}/buying_redeem_2.jpg"
             alt="purchase dialog with redeem option"/>
         </div>
         <div class="{{ class_div_img_3_col }}">
             <img class="{{ class_img_screenshot }}"
-            data-src="/images/{{ page.app_codename }}/buying_redeem_3.jpg"
+            data-src="/images/{{ app_code_name }}/buying_redeem_3.jpg"
             alt="Redeem Google Play Recharge. Code entry."/>
         </div>
     </div>
-    <p><strong>NOTE</strong> <em>If you redeem the code in Google Play app instead, you'll have to do the additional step of completing the purchase in {{ page.app }} app using your Google Play balance. Redeeming in {{ page.app }} app avoids this confusion.</em></p>
+    <p><strong>NOTE</strong> <em>If you redeem the code in Google Play app instead, you'll have to do the additional step of completing the purchase in {{ app }} app using your Google Play balance. Redeeming in {{ app }} app avoids this confusion.</em></p>
 {% endcapture %}
 
 <h3 class='faq-question'>How do I buy premium features?</h3>
@@ -268,7 +268,7 @@
 
 <h3 class='faq-question'>What happens if something goes wrong during the purchase?</h3>
 <div class='faq-answer'>
-    <p>Don't worry. Your money is safe. Millions of purchases happen every day. Problems are extremely rare. Worst case scenarios are well thought out by Google. If the issue is specific to our app, you can always contact us at <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+    <p>Don't worry. Your money is safe. Millions of purchases happen every day. Problems are extremely rare. Worst case scenarios are well thought out by Google. If the issue is specific to our app, you can always contact us at <a href="mailto:{{ app_email }}">{{ app_email }}</a></p>
 </div>
 
 <h3 class='faq-question'>My credit or debit card is not accepted!</h3>
@@ -295,5 +295,5 @@
 
 <h3 class='faq-question'>Help! Purchase failed but my card was charged?</h3>
 <div class='faq-answer'>
-    <p>Don't worry. You will NOT lose your money. In extremely rare cases, transaction may be incomplete after deducting money. If it ever happens, Google will automatically revert the money to your account in a few days. If you have any issues, write to us at <a href="mailto:{{ page.email }}">{{ page.email }}</a>, we'll follow it up with Google.</p>
+    <p>Don't worry. You will NOT lose your money. In extremely rare cases, transaction may be incomplete after deducting money. If it ever happens, Google will automatically revert the money to your account in a few days. If you have any issues, write to us at <a href="mailto:{{ app_email }}">{{ app_email }}</a>, we'll follow it up with Google.</p>
 </div>

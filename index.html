@@ -2,10 +2,6 @@
 layout: kuyil
 title: Kuyil Carnatic Apps
 
-shruti_app_link:    "https://play.google.com/store/apps/details?id=org.kuyil.shruti"
-sadhakam_app_link:  "https://play.google.com/store/apps/details?id=org.kuyil.sadhakam"
-shrutibox_app_link: "https://play.google.com/store/apps/details?id=org.kuyil.shrutibox"
-
 class_row_app: "row vcenter-desktop justify-content-sm-center"
 class_col_app_logo: "col-sm-auto my-auto"
 class_col_app_text: "col-md-5 appinfo"
@@ -34,99 +30,40 @@ brand_logo: "256"
             </div>
         </div>
     </div>
-</div>
+</div><!-- jumbotron -->
 
 <!-- app listing -->
 <div class="container">
-    <hr />
+  {% assign app_includes = "shrutibox.html, sadhakam.html, shruti.html" | split:", " %}
+  {% for app_include in app_includes %}
+  {% include {{ app_include }} %}
     <div class='{{ page.class_row_app }}' itemscope itemtype="schema.org/MobileApplication">
         <meta itemprop="operatingSystem" content="Android" />
         <meta itemprop="applicationCategory" content="Music" />
-        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox'>
+        <meta itemprop='sameAs' content='{{ app_link }}'>
 
         <div class="{{ page.class_col_app_logo }}">
-            <a {{ site.external_link }} href="{{ page.shrutibox_app_link }}">
-                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='Pocket Shruti Box app logo' src="/images/shrutibox_logo.svg" />
+            <a {{ site.external_link }} href="{{ app_link }}">
+                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='{{ app_short_name }} logo' src="{{ app_logo }}" />
             </a>
         </div>
 
         <div class="{{ page.class_col_app_text }}">
             <h2 class="app-title">
-                <a {{ site.external_link }} href="{{ page.shrutibox_app_link }}"><span itemprop="name">Pocket Shruti Box</span></a>
+                <a {{ site.external_link }} href="{{ app_link }}"><span itemprop="name">{{ app }}</span></a>
                 <br />
-                <small>Carnatic Tambura</small>
+                <small>{{ app_caption }}</small>
             </h2>
-            <p class="app-description"><span itemprop="featureList">Concert grade shruti box app. Authentic tambura sound. Very accurate. Clear even on phone speakers. Sounds great with external speakers and headphones.</span></p>
+            <p class="app-description"><span itemprop="featureList">{{ app_description }}</span></p>
         </div>
 
         <div class="{{ page.class_col_play_badge }}">
             <a itemprop="url" {{ site.external_link }} 
-               href='https://play.google.com/store/apps/details?id=org.kuyil.shrutibox&utm_source=kuyilorg&utm_campaign=home_page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-            </a>
-        </div>
-    </div>
-
-
-    <hr />
-    <div class='{{ page.class_row_app }}'
-               itemscope itemtype="schema.org/MobileApplication">
-        <meta itemprop="operatingSystem" content="Android" />
-        <meta itemprop="applicationCategory" content="Music" />
-        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam'>
-
-        <div class="{{ page.class_col_app_logo }}">
-            <a {{ site.external_link }} href="{{ page.sadhakam_app_link }}">
-                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='sadhakam app logo' src="/images/sadhakam_logo.svg" />
-            </a>
-        </div>
-
-        <div class="{{ page.class_col_app_text }}">
-            <h2 class="app-title">
-                <a {{ site.external_link }} href="{{ page.sadhakam_app_link }}"><span itemprop="name">Sādhakam</span></a>
-                <br />
-                <small>Carnatic Swara Gnanam Practice</small>
-            </h2>
-            <p class="app-description"><span itemprop="featureList">Easily improve your swara gnanam with interactive exercises. Develop the skill to identify swarams from what you hear.</span></p>
-        </div>
-
-        <div class="{{ page.class_col_play_badge }}">
-            <a itemprop="url" {{ site.external_link }} 
-               href='https://play.google.com/store/apps/details?id=org.kuyil.sadhakam&utm_source=kuyilorg&utm_campaign=home_page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play'
-               src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
-            </a>
-        </div>
-    </div>
-
-    <hr />
-    <div class='{{ page.class_row_app }}' itemscope itemtype="schema.org/MobileApplication">
-        <meta itemprop="operatingSystem" content="Android" />
-        <meta itemprop="applicationCategory" content="Music" />
-        <meta itemprop='sameAs' content='https://play.google.com/store/apps/details?id=org.kuyil.shruti'>
-
-        <div class="{{ page.class_col_app_logo }}">
-            <a {{ site.external_link }} href="{{ page.shruti_app_link }}">
-                <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='shruti app logo' src="/images/shruti_logo.svg" />
-            </a>
-        </div>
-
-        <div class="{{ page.class_col_app_text }}">
-            <h2 class="app-title">
-                <a {{ site.external_link }} href="{{ page.shruti_app_link }}"><span itemprop="name">Shruti</span></a>
-                <br />
-                <small>Carnatic Tuner</small>
-            </h2>
-            <p class="app-description"><span itemprop="featureList">Instantly see the swaram you're singing or playing. Tune any instrument accurately. Perfect your singing and playing.</span></p>
-        </div>
-
-        <div class="{{ page.class_col_play_badge }}">
-            <a itemprop="url" {{ site.external_link }} 
-               href='https://play.google.com/store/apps/details?id=org.kuyil.shruti&utm_source=kuyilorg&utm_campaign=home_page&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+               href='{{ app_link }}'>
                 <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
             </a>
         </div>
     </div>
     <hr />
-
+  {% endfor %}
 </div><!-- app listing container-->

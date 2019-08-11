@@ -16,12 +16,33 @@ apps:
     shruti:
         email: shruti@kuyil.org
         link: https://play.google.com/store/apps/details?id=org.kuyil.shruti
-        full_name: Shruti Carnatic Tuner
-        logo: /images/shruti_seal.png
+        full_name: "Shruti Carnatic Tuner"
+        short_name: "Shruti"
+        caption: "Carnatic Tuner"
+        code_name: "shruti"
+        logo: /images/shruti_logo.svg
+        seal: /images/shruti_seal.png
+        description: "Instantly see the swaram you're singing or playing. Tune any instrument accurately. Perfect your singing and playing."
     sadhakam:
+        email: sadhakam@kuyil.org
         link: https://play.google.com/store/apps/details?id=org.kuyil.sadhakam
+        full_name: "Sadhakam: Carnatic Swara Gnanam Practice"
+        short_name: "Sadhakam"
+        caption: "Carnatic Swara Gnanam Practice"
+        code_name: "sadhakam"
+        logo: /images/sadhakam_logo.svg
+        seal: /images/sadhakam_seal.png
+        description: "Easily improve your swara gnanam with interactive exercises. Develop the skill to identify swarams from what you hear."
     shrutibox:
+        email: shrutibox@kuyil.org
         link: https://play.google.com/store/apps/details?id=org.kuyil.shrutibox
+        full_name: "Pocket Shruti Box: Carnatic Tambura"
+        short_name: "Pocket Shruti Box"
+        caption: "Carnatic Tambura"
+        code_name: "shrutibox"
+        logo: /images/shrutibox_logo.svg
+        seal: /images/shrutibox_seal.png
+        description: "Concert grade shruti box app. Authentic tambura sound. Very accurate. Clear even on phone speakers. Sounds great with external speakers and headphones."
 
 # seo
 url: https://kuyil.org

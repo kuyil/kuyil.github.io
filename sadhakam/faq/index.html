@@ -1,30 +1,27 @@
 ---
-title: Frequently Asked Questions | Sādhakam Carnatic Ear Trainer
+title: "Frequently Asked Questions | Sadhakam: Carnatic Swara Gnanam Practice"
 layout: kuyil_with_container
-email: sadhakam@kuyil.org
-app_full_name: "Sadhakam Carnatic Ear Trainer"
-app_link: "https://play.google.com/store/apps/details?id=org.kuyil.sadhakam"
-app_logo: "/images/sadhakam_seal.png"
-
 ---
+
+{% include sadhakam.html %}
+{% include faq/heading.html %}
+
 <script type="application/ld+json">
 {
-	"@context": "http://schema.org/",
-	"@type": "MobileApplication",
-	"name": "Sādhakam Carnatic Ear Trainer",
-	"url": "https://play.google.com/store/apps/details?id=org.kuyil.sadhakam",
-	"applicationCategory": "Education",
-	"operatingSystem": "Android"
+  "@context": "http://schema.org/",
+  "@type": "MobileApplication",
+  "name": "{{ app_full_name }}",
+  "url": "{{ app_link }}",
+  "applicationCategory": "Education",
+  "operatingSystem": "Android"
 }
 </script>
-
-{% include faq/heading.html %}
 
 <div id="accordion">
 
     <h3 class="faq-question">How does the app work?</h3>
     <div class="faq-answer">
-        <p>Sādhakam Carnatic Ear Trainer has interactive exercises. In the exercises you will hear sequences and will be asked to identify one or more swarasthanams.</p>
+        <p>{{ app }} has interactive exercises. In the exercises you will hear sequences and will be asked to identify one or more swarasthanams.</p>
     </div>
 
     <h3 class="faq-question" id="12swarams">The app shows three Ri choices - Ri1, Ri2, Ri3. Aren't there only two Ri-s? (Same for Ga, Dha and Ni)</h3>
@@ -48,4 +45,6 @@ app_logo: "/images/sadhakam_seal.png"
         <p>See <a href="https://beautifulnote.com/blog/2017/12/03/carnatic-swarasthanas.html">this blog post</a> for more details.
     </div>
 
-</div>
+</div><!-- accordion -->
+
+{% include faq/footer.html %}

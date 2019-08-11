@@ -2,11 +2,7 @@
 title: Privacy Policy
 layout: kuyil_with_container
 
-app: Sadhakam Carnatic Ear Trainer
-app_link: https://play.google.com/store/apps/details?id=org.kuyil.sadhakam
-app_email: sadhakam@kuyil.org
-
-app_description: "The application is an ear trainer for Carnatic music, which helps the user to improve their swara gnanam. It provides exercises where the user gradually learns to identify and distinguish different swara sthanas."
+about_app: "The application is an ear trainer for Carnatic music, which helps the user to improve their swara gnanam. It provides exercises where the user gradually learns to identify and distinguish different swara sthanas."
 
 in_app_offerings: "The App offers in-app products and subscriptions that unlock additional exercises"
 
@@ -19,4 +15,5 @@ third_party_privacy_policies: "
 history: https://github.com/kuyil/kuyil.github.io/commits/master/sadhakam/privacy/index.markdown
 ---
 
+{% include sadhakam.html %}
 {% include privacy_policy.markdown %}
