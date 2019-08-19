@@ -8,6 +8,7 @@
 {% assign link_paytm_recharge = "https://paytm.com/google-play-gift-card-recharge" %}
 {% assign link_mobikwik_recharge = "https://www.mobikwik.com/google-play" %}
 {% assign link_freecharge_recharge = "https://www.freecharge.in/google-play-recharge" %}
+{% assign link_giftcard_retailers = "https://play.google.com/intl/en_in/about/giftcards/#giftcards-retailers" %}
 
 {% capture text_recharge_code_intro %}
   <p>Yes. It's a <strong>two step</strong> process:</p>
@@ -157,7 +158,7 @@
 <h3 class='faq-question' id='other-wallets'>Can I use some other mobile wallet?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'your wallet app' }}
-    <p><strong>Step 1</strong> Get <em>Google Play Recharge Code</em> using your wallet app. Many wallets offer these. Here's the <a {{ site.new_tab }} href='https://play.google.com/about/giftcards/#giftcards-retailers'>official list of retailers</a>.</p>
+    <p><strong>Step 1</strong> Get <em>Google Play Recharge Code</em> using your wallet app. Many wallets offer these. Here's the <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>official list of retailers</a>.</p>
     {{ text_recharge_code_redeem }}
 </div>
 
@@ -200,7 +201,7 @@
 <h3 class='faq-question' id='cash'>Can I use cash?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'a retailer' | replace: 'Recharge code', 'Gift Card' }} 
-    <p><strong>Step 1</strong> Buy <em>Google Play Gift Card</em> from a <a {{ site.new_tab }} href='https://play.google.com/about/giftcards/'>local retailer</a> or an online shop like <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a> or <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> using cash (or Cash-On-Delivery).</p>
+    <p><strong>Step 1</strong> Buy <em>Google Play Gift Card</em> from a <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>local retailer</a> or an online shop like <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a> or <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> using cash (or Cash-On-Delivery).</p>
     <p>{{ text_recharge_code_redeem | replace: 'the code', 'your gift card' }}</p>
 </div>
 
@@ -215,7 +216,7 @@
 
 <h3 class='faq-question' id='gift_card'>Are physical gift cards available?</h3>
 <div class='faq-answer'>
-    <p>Yes. <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a>, <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> and other <a {{ site.new_tab }} href='https://play.google.com/about/giftcards/'>retailers</a> sell Google Play gift cards. The same gift cards may be available at shops near you.</p>
+    <p>Yes. <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a>, <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> and other <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>retailers</a> sell Google Play gift cards. The same gift cards may be available at shops near you.</p>
     <p>Getting physical gift card takes time. Alternatively, you can get digital <em>Google Play Recharge</em> code instantly; buy it online from {{ text_recharge_outlets }}. </p>
     <div class='row'>
         <div class="col">
