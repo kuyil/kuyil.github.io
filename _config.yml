@@ -77,4 +77,4 @@ social: #TODO check if these appear in seo
         - *telegram
 
 # site level variables
-external_link: 'target="_blank" rel="noopener noreferrer"'
+new_tab: 'target="_blank" rel="noopener noreferrer"'

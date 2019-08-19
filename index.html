@@ -22,7 +22,7 @@ brand_logo: "256"
             <div class="col-sm-auto text_desktop_left_mobile_center">
                 <h1 class="brand_name">Kuyil Carnatic Apps</h1>
                 <p class="lead">Apps crafted for carnatic music</p>
-                <a {{ site.external_link }} href="https://play.google.com/store/apps/developer?id=Kuyil">
+                <a {{ site.new_tab }} href="https://play.google.com/store/apps/developer?id=Kuyil">
                     <div class="btn btn-primary">
                         OUR APPS
                     </div>
@@ -43,14 +43,14 @@ brand_logo: "256"
         <meta itemprop='sameAs' content='{{ app_link }}'>
 
         <div class="{{ page.class_col_app_logo }}">
-            <a {{ site.external_link }} href="{{ app_link }}">
+            <a {{ site.new_tab }} href="{{ app_link }}">
                 <img class='img mx-auto d-block' width="{{ page.app_logo_width }}" alt='{{ app_short_name }} logo' src="{{ app_logo }}" />
             </a>
         </div>
 
         <div class="{{ page.class_col_app_text }}">
             <h2 class="app-title">
-                <a {{ site.external_link }} href="{{ app_link }}"><span itemprop="name">{{ app }}</span></a>
+                <a {{ site.new_tab }} href="{{ app_link }}"><span itemprop="name">{{ app }}</span></a>
                 <br />
                 <small>{{ app_caption }}</small>
             </h2>
@@ -58,7 +58,7 @@ brand_logo: "256"
         </div>
 
         <div class="{{ page.class_col_play_badge }}">
-            <a itemprop="url" {{ site.external_link }} 
+            <a itemprop="url" {{ site.new_tab }} 
                href='{{ app_link }}'>
                 <img class='img mx-auto d-block' width='{{ page.play_badge_width }}' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
             </a>

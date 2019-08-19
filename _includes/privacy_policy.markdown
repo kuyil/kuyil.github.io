@@ -1,6 +1,6 @@
 # Privacy Policy
 
-This privacy policy governs your use of the software application <a {{ site.external_link }} href="{{ app_link }}">{{ app_full_name }}</a> ("App") for Android devices that was created by Kuyil. {{ page.about_app }}
+This privacy policy governs your use of the software application <a {{ site.new_tab }} href="{{ app_link }}">{{ app_full_name }}</a> ("App") for Android devices that was created by Kuyil. {{ page.about_app }}
 
 {{ page.optional_recording_permission_clarification }}
 
