@@ -86,12 +86,12 @@
     <p>Absolutely safe and secure. The payment is 100% handled by Google. It is a direct interaction between you and Google. Any info you provide is kept strictly private. At the end of the transaction, Google informs the app whether the purchase is successful or not. Based on that, the premium feature is enabled. Google ensures that the process is transparent, safe and fully secure.</p>
 </div>
 
-<h3 class='faq-question' id='upi'>Can I use BHIM UPI?</h3>
+<h3 class='faq-question' id='bhim' onclick='woopra.track("faq_payment", {"mode": "bhimupi"})'>Can I use BHIM UPI?</h3>
 <div class='faq-answer'>
     {{ text_upi | replace: 'UPI ID from UPIPROVIDER', 'BHIM UPI' }}
 </div>
 
-<h3 class='faq-question' id='recharge'>Can I use Paytm?</h3>
+<h3 class='faq-question' id='recharge' onclick='woopra.track("faq_payment", {"mode": "paytm"})'>Can I use Paytm?</h3>
 <div class='faq-answer'>
     <p>There are two options to pay using Paytm. You can use UPI ID given by Paytm (recommended), or use your wallet balance.</p>
     <h5>Option 1: Using UPI ID</h5>
@@ -121,7 +121,7 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='phonepe'>Can I use PhonePe?</h3>
+<h3 class='faq-question' id='phonepe' onclick='woopra.track("faq_payment", {"mode": "phonepe"})'>Can I use PhonePe?</h3>
 <div class='faq-answer'>
     {{ text_upi | replace: 'UPIPROVIDER', 'PhonePe' }}
     <hr />
@@ -144,17 +144,17 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='gpay'>Can I use Google Pay (GPay)?</h3>
+<h3 class='faq-question' id='gpay' onclick='woopra.track("faq_payment", {"mode": "gpay"})'>Can I use Google Pay (GPay)?</h3>
 <div class='faq-answer'>
     {{ text_upi | replace: 'UPIPROVIDER', 'GPay' }}
 </div>
 
-<h3 class='faq-question' id='upi'>Can I use UPI ({{ text_upi_providers }})?</h3>
+<h3 class='faq-question' id='upi' onclick='woopra.track("faq_payment", {"mode": "upi"})'>Can I use UPI ({{ text_upi_providers }})?</h3>
 <div class='faq-answer'>
     {{ text_upi | replace: 'UPIPROVIDER', text_upi_providers }}
 </div>
 
-<h3 class='faq-question' id='amazon'>Can I use Amazon?</h3>
+<h3 class='faq-question' id='amazon' onclick='woopra.track("faq_payment", {"mode": "amazon"})'>Can I use Amazon?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'Amazon' }}
     <p><strong>Step 1</strong> Get Google Play Recharge code from Amazon using one of the options below:</p>
@@ -165,7 +165,7 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='mobikwik'>Can I use MobiKwik?</h3>
+<h3 class='faq-question' id='mobikwik' onclick='woopra.track("faq_payment", {"mode": "mobikwik"})'>Can I use MobiKwik?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'MobiKwik' }}
     <p><strong>Step 1</strong> To get <em>Google Play Recharge Code</em> from MobiKwik, <a {{ site.new_tab }} href='{{ link_mobikwik_recharge }}'>click here</a>.</p>
@@ -180,7 +180,7 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='freecharge'>Can I use Freecharge?</h3>
+<h3 class='faq-question' id='freecharge' onclick='woopra.track("faq_payment", {"mode": "freecharge"})'>Can I use Freecharge?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'Freecharge' }}
     <p><strong>Step 1</strong> To get <em>Google Play Recharge Code</em> from Freecharge, <a {{ site.new_tab }} href='{{ link_freecharge_recharge }}'>click here</a>.</p>
@@ -204,14 +204,14 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='other-wallets'>Can I use some other mobile wallet?</h3>
+<h3 class='faq-question' id='other-wallets' onclick='woopra.track("faq_payment", {"mode": "otherwallets"})'>Can I use some other mobile wallet?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'your wallet app' }}
     <p><strong>Step 1</strong> Get <em>Google Play Recharge Code</em> using your wallet app. Many wallets offer these. Here's the <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>official list of retailers</a>.</p>
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='netbanking'>Can I use netbanking?</h3>
+<h3 class='faq-question' id='netbanking' onclick='woopra.track("faq_payment", {"mode": "netbanking"})'>Can I use netbanking?</h3>
 <div class='faq-answer'>
     <p>Sure, you can. These screens show you how:</p>
     <div class='row'>
@@ -238,9 +238,11 @@
             alt="purchase dialog"/>
         </div>
     </div>
+    <hr/>
+    <p>Alternatively, you can also use your <a href='#upi'>UPI</a> ID to pay from your bank account. Read <a href='#upi'>this</a>.
 </div>
 
-<h3 class='faq-question' id='cash'>Can I use cash?</h3>
+<h3 class='faq-question' id='cash' onclick='woopra.track("faq_payment", {"mode": "cash"})'>Can I use cash?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'a retailer' | replace: 'Recharge code', 'Gift Card' }} 
     <p><strong>Step 1</strong> Buy <em>Google Play Gift Card</em> from a <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>local retailer</a> or an online shop like <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a> or <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> using cash (or Cash-On-Delivery).</p>
@@ -248,7 +250,7 @@
 </div>
 
 
-<h3 class='faq-question' id='rupay'>Can I use RuPay credit or debit card?</h3>
+<h3 class='faq-question' id='rupay' onclick='woopra.track("faq_payment", {"mode": "rupay"})'>Can I use RuPay credit or debit card?</h3>
 <div class='faq-answer'>
     <p>Google Play currently does not accept RuPay cards. We recommend you to <a href='#upi'>use your UPI ID</a> instead. If you don't have UPI ID, you can still get our premium features following these steps.</p>
     {{ text_recharge_code_intro | replace: 'Yes. ', '' | replace:'from WALLET', 'using your RuPay card' }}
@@ -256,7 +258,7 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='gift_card'>Are physical gift cards available?</h3>
+<h3 class='faq-question' id='gift_card' onclick='woopra.track("faq_payment", {"mode": "giftcard"})'>Are physical gift cards available?</h3>
 <div class='faq-answer'>
     <p>Yes. <a {{ site.new_tab }} href='https://www.amazon.in/Google-Play-Gift-Card-Rs-750/dp/B013P66XVK'>amazon</a>, <a {{ site.new_tab }} href='https://www.snapdeal.com/products/physical-gift-cards?sort=plrty&q=Brand%3AGoogle%20Play%7C'>snapdeal</a> and other <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>retailers</a> sell Google Play gift cards. The same gift cards may be available at shops near you.</p>
     <p>Getting physical gift card takes time. Alternatively, you can get digital <em>Google Play Recharge</em> code instantly; buy it online from {{ text_recharge_outlets }}. </p>
@@ -274,7 +276,7 @@
 {{ text_recharge_code_redeem | replace: 'Step 2', '' }}
 </div>
 
-<h3 class='faq-question' id='carrier_billing'> Can you simply charge to my mobile bill?</h3>
+<h3 class='faq-question' id='carrier_billing' onclick='woopra.track("faq_payment", {"mode": "carrier"})'> Can you simply charge to my mobile bill?</h3>
 <div class='faq-answer'>
     <p>You can get the feature and pay for it through your your mobile bill. Look for your mobile operator's name in payment methods. Currently Airtel, Vodafone and Idea support this feature in India.</p>
     <p class='alert alert-danger' role='alert'>Mobile carriers charge a convenience fee additionally. This is typically <b>16%</b>. It may vary by region. More details at <a {{ site.new_tab }} href='https://support.google.com/googleplay/answer/6394130'>https://support.google.com/googleplay/answer/6394130</a>.</p>
