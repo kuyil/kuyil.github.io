@@ -4,7 +4,7 @@
 {% assign class_div_img_3_col = "col-sm" %}
 {% assign class_img_screenshot = "img-fluid lazyload screenshot" %}
 {% assign text_recharge_outlets = "<a href='#recharge'>Paytm</a>, <a href='#phonepe'>PhonePe</a>, <a href='#mobikwik'>MobiKwik</a>, <a href='#freecharge'>Freecharge</a> or <a href='#amazon'>Amazon</a>" %}
-{% assign text_upi_providers = "BHIM, GPay, PhonePe, etc" %}
+{% assign text_upi_providers = "BHIM, GPay, PhonePe, Paytm, etc or any bank" %}
 {% assign link_paytm_recharge = "https://paytm.com/google-play-gift-card-recharge" %}
 {% assign link_mobikwik_recharge = "https://www.mobikwik.com/google-play" %}
 {% assign link_freecharge_recharge = "https://www.freecharge.in/google-play-recharge" %}
@@ -17,6 +17,32 @@
     <li>Redeem the code in <strong>{{ app }} app</strong> and complete the purchase.</li>
   </ol>
   <p>That's it. Here are the details:</p>
+{% endcapture %}
+
+{% capture text_upi %}
+    <p>Yes. You can pay with your UPI ID from UPIPROVIDER.</p>
+    <ol>
+        <li>Open {{ app }} app and start the purchase.</li>
+        <li>Add your UPI ID as shown below.</li>
+        <li>Tap on BUY button and complete the purchase.</li>
+    </ol>
+    <div class='row'>
+        <div class="{{ class_div_img_3_col }}">
+            <img class="{{ class_img_screenshot }}"
+            data-src="/images/{{ app_code_name }}/buying_redeem_1.jpg"
+            alt="purchase dialog"/>
+        </div>
+        <div class="{{ class_div_img_3_col }}">
+            <img class="{{ class_img_screenshot }}"
+            data-src="/images/buying_upi_1.jpg"
+            alt="purchase dialog with redeem option"/>
+        </div>
+        <div class="{{ class_div_img_3_col }}">
+            <img class="{{ class_img_screenshot }}"
+            data-src="/images/buying_upi_2.jpg"
+            alt="Redeem Google Play Recharge. Code entry."/>
+        </div>
+    </div>
 {% endcapture %}
 
 {% capture text_recharge_code_redeem %}
@@ -45,11 +71,11 @@
 <div class='faq-answer'>
     <p>There are several ways to buy. You can:</p>
     <ul>
+        <li> Use <a href='#upi'>UPI</a> ID from <b>{{ text_upi_providers }}</b>.</li>
         <li> Use a credit or debit card. (NOTE: If you've <b>RuPay</b> card, please <a href='#rupay'>read this</a> first.)</li>
-        <li> Use {{ text_recharge_outlets }}.</li>
+        <li> Use <a href='#gpay'>GPay</a>, {{ text_recharge_outlets }}.</li>
         <li> Use <a href='#cash'>cash</a>.</li>
         <li> Get a Google Play <a href='#gift_card'>Gift Card</a>.</li>
-        <li> Use <a href='#upi'>UPI</a> ID from <b>{{ text_upi_providers }}</b>.</li>
         <li> Use <a href='#netbanking'>netbanking</a>.</li>
         <li> Pay through your <a href='#carrier_billing'>mobile bill/balance</a>.</li>
     </ul>
@@ -60,9 +86,19 @@
     <p>Absolutely safe and secure. The payment is 100% handled by Google. It is a direct interaction between you and Google. Any info you provide is kept strictly private. At the end of the transaction, Google informs the app whether the purchase is successful or not. Based on that, the premium feature is enabled. Google ensures that the process is transparent, safe and fully secure.</p>
 </div>
 
+<h3 class='faq-question' id='upi'>Can I use BHIM UPI?</h3>
+<div class='faq-answer'>
+    {{ text_upi | replace: 'UPI ID from UPIPROVIDER', 'BHIM UPI' }}
+</div>
+
 <h3 class='faq-question' id='recharge'>Can I use Paytm?</h3>
 <div class='faq-answer'>
-    {{ text_recharge_code_intro | replace: 'WALLET', 'Paytm' }}
+    <p>There are two options to pay using Paytm. You can use UPI ID given by Paytm (recommended), or use your wallet balance.</p>
+    <h5>Option 1: Using UPI ID</h5>
+    {{ text_upi | replace: 'Yes. ', '' | replace: 'UPIPROVIDER', 'Paytm' }}
+    <hr />
+    <h4>Option 2: Without UPI</h4>
+    {{ text_recharge_code_intro | replace: 'Yes. ', "If you haven't setup UPI in Paytm, you can still make the purchase. " | replace: 'WALLET', 'Paytm' }}
     <p><strong>Step 1</strong> To get <em>Google Play Recharge code</em> from Paytm, <a {{ site.new_tab }} href='{{ link_paytm_recharge }}'>click here</a>.</p>
     <div class='row'>
         <div class="{{ class_div_img_3_col }}">
@@ -83,6 +119,39 @@
     </div>
     <br />
     {{ text_recharge_code_redeem }}
+</div>
+
+<h3 class='faq-question' id='phonepe'>Can I use PhonePe?</h3>
+<div class='faq-answer'>
+    {{ text_upi | replace: 'UPIPROVIDER', 'PhonePe' }}
+    <hr />
+    <p>Even if you don't have UPI ID, you can still use PhonePe to make the purchase.</p>
+    {{ text_recharge_code_intro | replace: 'Yes. ', '' | replace: 'WALLET', 'PhonePe' }}
+    <p><strong>Step 1</strong> Open PhonePe app and follow these screens to get <em>Google Play Recharge Code</em>.
+    <div class='row'>
+        <div class="{{ class_div_img_3_col }}">
+            <img class="{{ class_img_screenshot }}"
+            data-src="/images/shruti/buying_phonepe_1.png"
+            alt="PhonePe Google Play Recharge"/>
+        </div>
+        <div class="{{ class_div_img_3_col }}">
+            <img class="{{ class_img_screenshot }}"
+            data-src="/images/shruti/buying_phonepe_2.png"
+            alt="Google Play Recharge - Enter amount"/>
+        </div>
+    </div>
+    <br />
+    {{ text_recharge_code_redeem }}
+</div>
+
+<h3 class='faq-question' id='gpay'>Can I use Google Pay (GPay)?</h3>
+<div class='faq-answer'>
+    {{ text_upi | replace: 'UPIPROVIDER', 'GPay' }}
+</div>
+
+<h3 class='faq-question' id='upi'>Can I use UPI ({{ text_upi_providers }})?</h3>
+<div class='faq-answer'>
+    {{ text_upi | replace: 'UPIPROVIDER', text_upi_providers }}
 </div>
 
 <h3 class='faq-question' id='amazon'>Can I use Amazon?</h3>
@@ -135,37 +204,10 @@
     {{ text_recharge_code_redeem }}
 </div>
 
-<h3 class='faq-question' id='phonepe'>Can I use PhonePe?</h3>
-<div class='faq-answer'>
-    {{ text_recharge_code_intro | replace: 'WALLET', 'PhonePe' }}
-    <p><strong>Step 1</strong> Open PhonePe app and follow these screens to get <em>Google Play Recharge Code</em>.
-    <div class='row'>
-        <div class="{{ class_div_img_3_col }}">
-            <img class="{{ class_img_screenshot }}"
-            data-src="/images/shruti/buying_phonepe_1.png"
-            alt="PhonePe Google Play Recharge"/>
-        </div>
-        <div class="{{ class_div_img_3_col }}">
-            <img class="{{ class_img_screenshot }}"
-            data-src="/images/shruti/buying_phonepe_2.png"
-            alt="Google Play Recharge - Enter amount"/>
-        </div>
-    </div>
-    <br />
-    {{ text_recharge_code_redeem }}
-</div>
-
 <h3 class='faq-question' id='other-wallets'>Can I use some other mobile wallet?</h3>
 <div class='faq-answer'>
     {{ text_recharge_code_intro | replace: 'WALLET', 'your wallet app' }}
     <p><strong>Step 1</strong> Get <em>Google Play Recharge Code</em> using your wallet app. Many wallets offer these. Here's the <a {{ site.new_tab }} href='{{ link_giftcard_retailers }}'>official list of retailers</a>.</p>
-    {{ text_recharge_code_redeem }}
-</div>
-
-<h3 class='faq-question' id='upi'>Can I use my UPI ID from {{ text_upi_providers }}?</h3>
-<div class='faq-answer'>
-    {{ text_recharge_code_intro | replace: 'from WALLET', 'using your UPI ID' }}
-    <p><strong>Step 1</strong> Buy a <em>Google Play Recharge Code</em> using your UPI ID (<b>{{ text_upi_providers }}</b>) from {{ text_recharge_outlets }}. 
     {{ text_recharge_code_redeem }}
 </div>
 
@@ -208,7 +250,7 @@
 
 <h3 class='faq-question' id='rupay'>Can I use RuPay credit or debit card?</h3>
 <div class='faq-answer'>
-    <p>Yes. Though Google Play currently does not accept RuPay cards, you can still get our premium features.</p>
+    <p>Google Play currently does not accept RuPay cards. We recommend you to <a href='#upi'>use your UPI ID</a> instead. If you don't have UPI ID, you can still get our premium features following these steps.</p>
     {{ text_recharge_code_intro | replace: 'Yes. ', '' | replace:'from WALLET', 'using your RuPay card' }}
     <p><strong>Step 1</strong> Purchase <em>Google Play Recharge Code</em> using your RuPay card from {{ text_recharge_outlets }}.</p>
     {{ text_recharge_code_redeem }}
