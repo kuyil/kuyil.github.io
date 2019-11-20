@@ -7,10 +7,6 @@ about_app: "The application plays Tambura drone sounds. It is mainly used while 
 in_app_offerings: "The App offers certain features as in-app purchases that enhance or extend the functionality of the App"
 
 third_party_services: "Crash Reporting and Analytics services"
-third_party_privacy_policies: "
-* Crashlytics [Privacy Policy](http://try.crashlytics.com/terms/privacy-policy.pdf)\n
-* Firebase [Privacy Policy](https://www.google.com/policies/privacy/)\n
-"
 
 history: https://github.com/kuyil/kuyil.github.io/commits/master/shrutibox/privacy/index.markdown
 ---

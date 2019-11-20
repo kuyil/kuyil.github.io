@@ -36,7 +36,8 @@ We may disclose User Provided and Automatically Collected Information:
 
 The App relies on third party libraries for {{ page.third_party_services }}. These libraries collect anonymous usage information like frequency and duration of App usage, device model, Android version, details of a crash or failure in the App etc. Listed below are the services used by the App and their privacy policies. By using the app you are agreeing to these privacy policies also.
 
-{{ page.third_party_privacy_policies }}
+* Firebase [Privacy Policy](https://policies.google.com/privacy)
+* Google Analytics [Privacy Policy](https://policies.google.com/technologies/partner-sites)
 
 ## What are my opt-out rights?
 

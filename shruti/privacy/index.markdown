@@ -13,14 +13,10 @@ The basic functionality of the App is determining the Swaram or Pitch that you s
 "
 
 third_party_services: "Crash Reporting, Analytics, and Advertisement services"
-third_party_privacy_policies: "
-* Crashlytics [Privacy Policy](http://try.crashlytics.com/terms/privacy-policy.pdf)\n
-* Firebase [Privacy Policy](https://www.google.com/policies/privacy/)\n
-* AdMob [Privacy Policy](https://www.google.com/intl/en/policies/privacy/)\n
-"
-
 optional_opting_out_of_ads: "
-If you would not like to be tracked by Advertisement networks, you can buy one of the in-app features that will remove ads. Please note that Crash Reporting and Analytics modules will still continue to collect anonymous usage information as they are essential for maintaining and improving quality of the App.
+In earlier versions (5.0.6 and before), the App served ads. If you have one of these versions and would not like to be tracked by Advertisement networks, you can buy one of the in-app features that will remove ads, or upgrade to a later version.
+
+Crash Reporting (Firebase) and Analytics modules will still continue to collect anonymous usage information as they are essential for maintaining and improving quality of the App.
 "
 
 history: https://github.com/kuyil/kuyil.github.io/commits/master/shruti/privacy/index.markdown
